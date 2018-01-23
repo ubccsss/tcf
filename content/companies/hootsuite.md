@@ -1,7 +1,7 @@
 ---
 title: Hootsuite
 website: https://hootsuite.com/
-booth: "34"
+booth: "40"
 ---
 
 A social media management platform.

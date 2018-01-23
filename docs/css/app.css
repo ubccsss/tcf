@@ -257,6 +257,10 @@ ul.company-list li a:hover {
     margin-top: 1px;
 }
 
+.map-container #booth-6 {
+    margin-bottom: 5vmin;
+}
+
 .map-container .booth {
     display: inline-block;
     position: relative;
