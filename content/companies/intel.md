@@ -1,7 +1,7 @@
 ---
 title: Intel of Canada
 website: http://www.intel.com/
-booth: "46"
+booth: "44"
 ---
 
 The Non-Volatile Memory Solutions Group is a worldwide organization that delivers NAND flash memory products for use in Solid State Drives (SSDs), portable memory storage devices, digital camera memory cards, and other devices.

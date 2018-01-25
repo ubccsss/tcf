@@ -1,7 +1,7 @@
 ---
 title: New Hippo Health
 website: https://www.newhippo.com/working-with-us/
-booth: "20"
+booth: "18"
 ---
 
 Are you motivated to work on products that have a meaningful impact?  At New Hippo Health, our mission is to build software products to fundamentally improve the Canadian healthcare system for patients, their family and friends, specialists, and clinical care teams.  We are a Vancouver-based startup founded by the CEOs of three notable companies: Crystal Decisions, Pulse Energy, and Eupraxia Pharmaceuticals.  Our distributed team is cross-functional and features clinical, business, technical, creative, and artistic talent.

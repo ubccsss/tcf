@@ -1,7 +1,7 @@
 ---
 title: RedMane Technology Canada
 website: http://www.redmane.ca/
-booth: "31"
+booth: "33"
 ---
 
 RedMane Technology is a software development company. We have been in business for 16 years and have recently opened up our Canada Delivery Practice in Burnaby, British Columbia.

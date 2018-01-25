@@ -1,7 +1,7 @@
 ---
 title: Canfor
 website: https://jobs.canfor.com/
-booth: "17"
+booth: "19"
 ---
 
 Canfor is one of the world’s largest producers of sustainable lumber, pulp and  paper and a North American leader in green energy production. As we seek to raise the bar in how we do business, we constantly invest in cutting-edge technology and make innovation a priority.
