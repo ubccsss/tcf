@@ -1,9 +1,9 @@
 baseurl: https://ubctcf.com
 languageCode: en-us
-title: UBC Technical Career Fair 2018
+title: UBC Technical Career Fair 2019
 
 params:
-  shorttitle: TCF18
-  year: 18
+  shorttitle: TCF19
+  year: 19
 
 publishdir: docs
