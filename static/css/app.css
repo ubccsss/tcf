@@ -9,10 +9,18 @@
     url('../fonts/ubcicons.svg'); /* IE9 */
 }
 
+
+@font-face {
+  font-family: 'couture';
+  font-style: bold;
+  src: url('../fonts/couture-bld.otf'); /* No svg, eot, woff atm */
+}
+
 .icon-careers:before {
     content: "\e072";
     font-family: 'ubcicons';
 }
+
 
 .off-canvas-wrap.scrollable .main-section {
     overflow-y: scroll;
@@ -159,8 +167,9 @@ ul.off-canvas-list li a div.img {
 }
 
 .logo {
+    font-family: 'couture';
     font-size: 42px;
-    line-height: 60px;
+    line-height: 70px;
     color: #90c7ff;
     font-weight: 600;
 }
