@@ -68,6 +68,16 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
     height: 100%;
 }
 
+.button.secondary {
+    background-color: #052d57;
+    color: #ffffff;
+}
+
+.button.secondary:hover {
+    background-color: #042548;
+    color: #ffffff;
+}
+
 /* HAMBURGER MENU CLASSES */
 ul.off-canvas-list li {
     font-weight: 200;
@@ -187,13 +197,13 @@ ul.off-canvas-list li a div.img {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0.9rem;
-    background-color: #900000 !important;
-    border-color: #800000 !important;
+    background-color: #052d57 !important;
+    border-color: #042548 !important;
 }
 
 .help-button:hover {
-    background-color: #800000 !important;
-    border-color: #700000 !important;
+    background-color: #042548 !important;
+    border-color: #052d57 !important;
 }
 
 .help-button .button-text {
