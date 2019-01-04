@@ -27,6 +27,6 @@ If you can't find anyone and need help right away, just contact the CSSS VP Exte
 <div class="row actions-row max add-bottom">
 <div class="small-12 columns right">
 <a class="button action-button" href="tel:7786814965"><span class="fa fa-phone"></span>&nbsp; (778) 681-4965</a>
-<a class="button secondary action-button" href="mailto:vpx@thecube.ca"><span class="fa fa-envelope-o"></span>&nbsp; vpx@ubccsss.org</a>
+<a class="button secondary action-button" href="mailto:vpx@ubccsss.org"><span class="fa fa-envelope-o"></span>&nbsp; vpx@ubccsss.org</a>
 </div>
 </div>

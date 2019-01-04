@@ -9,10 +9,18 @@
     url('../fonts/ubcicons.svg'); /* IE9 */
 }
 
+
+@font-face {
+  font-family: 'couture';
+  font-style: bold;
+  src: url('../fonts/couture-bld.otf'); /* No svg, eot, woff atm */
+}
+
 .icon-careers:before {
     content: "\e072";
     font-family: 'ubcicons';
 }
+
 
 .off-canvas-wrap.scrollable .main-section {
     overflow-y: scroll;
@@ -58,6 +66,16 @@
 
 body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
     height: 100%;
+}
+
+.button.secondary {
+    background-color: #052d57;
+    color: #ffffff;
+}
+
+.button.secondary:hover {
+    background-color: #042548;
+    color: #ffffff;
 }
 
 /* HAMBURGER MENU CLASSES */
@@ -159,8 +177,9 @@ ul.off-canvas-list li a div.img {
 }
 
 .logo {
+    font-family: 'couture';
     font-size: 42px;
-    line-height: 60px;
+    line-height: 70px;
     color: #90c7ff;
     font-weight: 600;
 }
@@ -178,13 +197,13 @@ ul.off-canvas-list li a div.img {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0.9rem;
-    background-color: #900000 !important;
-    border-color: #800000 !important;
+    background-color: #052d57 !important;
+    border-color: #042548 !important;
 }
 
 .help-button:hover {
-    background-color: #800000 !important;
-    border-color: #700000 !important;
+    background-color: #042548 !important;
+    border-color: #052d57 !important;
 }
 
 .help-button .button-text {
