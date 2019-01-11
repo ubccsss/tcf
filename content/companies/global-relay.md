@@ -1,7 +1,6 @@
 ---
 title: Global Relay
 website: http://www.globalrelay.com/
-booth: "7"
 ---
 
 Global Relay is the leading provider of cloud-based electronic message archiving, supervision, and eDiscovery solutions for the global financial sector, delivering services to 20,000 customers in 90 countries, including 22 of the world’s top 25 banks. Global Relay Archive securely captures and preserves email, instant messaging, mobile messaging, Bloomberg, Thomson Reuters, Twitter, LinkedIn, Facebook and more — with Blackberry, iPhone, iPad, Android, Outlook and Web access.

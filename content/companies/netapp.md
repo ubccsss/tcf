@@ -1,7 +1,6 @@
 ---
 title: NetApp
 website: https://www.netapp.com/
-booth: "43"
 ---
 
 Leading organizations worldwide count on NetApp for software, systems and services to manage and store their data. Customers value our teamwork, expertise and passion for helping them succeed now and into the future.

@@ -1,7 +1,6 @@
 ---
 title: Realtor.com
 website: https://www.realtor.com/
-booth: "31"
 ---
 
 Realtor.com®, operated by Move, Inc., is the fastest growing online real estate destination for homebuyers, sellers and renters. Today, with over 3 million listings from nearly 800 multiple listing services (MLS), we have the most homes for sale nationwide than any competing real estate marketplaces.

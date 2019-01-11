@@ -1,7 +1,6 @@
 ---
 title: Copperleaf Technologies
 website: http://www.copperleaf.com/
-booth: "2"
 ---
 
 Building a better world one decision at a time.

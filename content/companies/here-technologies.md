@@ -1,7 +1,6 @@
 ---
 title: HERE Technologies
 website: https://www.here.com/en/careers/jobs
-booth: "24"
 ---
 
 Mapping has always been about discovery. For centuries, two-dimensional maps guided us through the unknown to our destination. But we are no longer limited by the edges of our physical maps.

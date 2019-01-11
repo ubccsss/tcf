@@ -1,7 +1,6 @@
 ---
 title: Benevity Inc.
 website: http://www.benevity.com/
-booth: "38"
 ---
 
 Better Work and a Better World: at Benevity that’s what we’re all about. We’re a software company in the business of doing good, building better ways for companies to connect with their customers and employees around causes (we make “doing well by doing good” more than just a tagline!). We’re growing fast and looking for more great people to join us.
