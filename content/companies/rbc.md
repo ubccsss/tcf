@@ -1,5 +1,5 @@
 ---
-title: The Royal Bank of Canada
+title: RBC
 website: http://www.rbcroyalbank.com
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Jomar
+title: JOMAR Softcorp Services Inc.
 website: http://www.jomarsoftcorp.com
 ---
 
