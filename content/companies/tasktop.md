@@ -1,6 +1,7 @@
 ---
 title: Tasktop Technologies
 website: http://www.tasktop.com/
+booth: "44"
 ---
 
 Over one million users employ Tasktop's ALM and DevOps integration technology to transform the productivity of software delivery, by connecting the development, testing, Agile planning, PMO and operations functions into a unified software development and delivery team.

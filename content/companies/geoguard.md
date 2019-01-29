@@ -1,6 +1,7 @@
 ---
 title: GeoGuard
 website: http://www.geoguard.com
+booth: "16"
 ---
 
 A clear market-leader in cyber-security, GeoGuard specializes in fighting and detecting location fraud protecting regulated the industries as well as the global film, TV & sports world. 

@@ -1,6 +1,7 @@
 ---
 title: CPP Investment Board
 website: http://www.cppib.com/en/careers/
+booth: "22"
 ---
 
 We have a profound responsibility: to invest the assets belonging to 20 million

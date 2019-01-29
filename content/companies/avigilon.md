@@ -1,6 +1,7 @@
 ---
 title: Avigilon
 website: http://www.avigilon.com/
+booth: "33"
 ---
 
 Pronunciation: a-vigil-on

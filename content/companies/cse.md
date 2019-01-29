@@ -1,6 +1,7 @@
 ---
 title: Communications Security Establishment
 website: http://www.cse-cst.gc.ca/
+booth: "49"
 ---
 
 The Communications Security Establishment is one of Canada’s key security and intelligence organizations. For 70 years CSE has been committed to the safety and security of Canada and Canadians. We focus on collecting foreign signals intelligence to protect Canada against threats, and on helping protect the computer networks and information of greatest importance to Canada. We also provide technical assistance to federal law enforcement and security organizations

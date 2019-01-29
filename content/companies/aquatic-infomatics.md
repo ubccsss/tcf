@@ -1,6 +1,7 @@
 ---
 title: Aquatic Informatics
 website: http://aquaticinformatics.com/
+booth: "45"
 ---
 
 Aquatic Informatics™ provides leading software solutions that address critical water data management and analysis challenges for the rapidly growing environmental monitoring industry. Aquatic Informatics is the trusted provider of hydrologic management solutions to hundreds of federal, state/provincial and local government departments, hydropower operators, mining companies, academic groups, and consulting organizations around the world, who collect, manage, and process large volumes of water quality or quantity data.
