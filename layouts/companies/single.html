@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "main" }}
 <div class="company-image-bg">
   {{ if isset .Params "logo" }}
   <img src="/media/{{ .Params.logo }}" />
@@ -75,5 +74,4 @@
     </table>
   </div>
 </div>
-
-{{ partial "footer.html" . }}
+{{ end }}

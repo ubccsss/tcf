@@ -1,3 +1,4 @@
 ---
-map: true
+title: Venue Map
+layout: map
 ---
