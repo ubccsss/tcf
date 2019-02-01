@@ -1,5 +1,4 @@
-{{ partial "header" . }}
-
+{{ define "main" }}
 <ul class="company-list">
 	{{ range sort .Data.Pages "RelPermalink" }}
 		<li><a href="{{ .RelPermalink }}">
@@ -10,5 +9,4 @@
 		</a></li>
 	{{end}}
 </ul>
-
-{{ partial "footer" . }}
+{{ end }}

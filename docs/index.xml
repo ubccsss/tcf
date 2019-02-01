@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UBC Technical Career Fair 2019</title>
+    <title>UBC Technical Career Fair</title>
     <link>https://ubctcf.com/</link>
-    <description>Recent content on UBC Technical Career Fair 2019</description>
+    <description>Recent content on UBC Technical Career Fair</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-ca</language>
     <lastBuildDate>Wed, 02 Nov 2016 19:46:36 +0000</lastBuildDate>
     
 	<atom:link href="https://ubctcf.com/index.xml" rel="self" type="application/rss+xml" />
@@ -19,15 +19,6 @@
       <guid>https://ubctcf.com/privacy/</guid>
       <description>Privacy Policy Data Collected All activities performed on the TCF webapp will be logged anonymously through Google Analytics. No personally identifiable information is ever recorded through this method.
 Additionally, all hits to company pages will be logged internally, and will be associated with an IP address. If logged in, we will additionally record this hit with your user account associated with it. This information is used solely for the purposes of improving the system and event, and is not shared with any third parties.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ubctcf.com/map/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubctcf.com/map/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -516,6 +507,15 @@ Our culture emphasizes teamwork, openness, professional development, and quality
       <guid>https://ubctcf.com/companies/teradici/</guid>
       <description>Teradici is the creator of the PCoIP remoting protocol technology and Cloud Access Software, the leading solution for a cloud-ready future. Founded in 2004, the Burnaby company is focused on its core mission of seamless delivery of workstations and applications for end-users.
 Teradici PCoIP® technology is the most secure remoting technology in the marketplace, enabling visualization of even the most graphics-intensive applications. Teradici Cloud Access Software, built on PCoIP technology, enables enterprises to securely leverage public cloud GPU instances to confidently lift and shift the most graphics-intensive Windows or Linux applications to the public cloud, avoiding costly rewrites.</description>
+    </item>
+    
+    <item>
+      <title>Venue Map</title>
+      <link>https://ubctcf.com/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubctcf.com/map/</guid>
+      <description></description>
     </item>
     
     <item>
