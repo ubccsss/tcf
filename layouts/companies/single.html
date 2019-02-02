@@ -10,15 +10,15 @@
 <div class="row actions-row {{ if isset .Params "booth" }}max{{end}}">
   <div class="small-4 columns left">
     {{ if isset .Params "booth" }}
-    <div class="booth-pre">Booth</div>
-    <div class="booth"><span class="booth-text">{{.Params.booth }}</span></div>
+    <div class="booth-pre">{{ i18n "booth" }}</div>
+    <div class="booth"><span class="booth-text">{{.Params.booth}}</span></div>
     {{ else }}
-    <div class="no-booth">No Booth</div>
+    <div class="no-booth">{{ i18n "noBooth" }}</div>
     {{ end }}
   </div>
   <div class="small-8 columns right">
     {{ if isset .Params "booth" }}
-    <a class="button action-button" href="/map/#booth-{{.Params.booth}}"><span class="fi-map"></span>&nbsp; View on Map</a>
+    <a class="button action-button" href="/map/#booth-{{.Params.booth}}"><span class="fi-map"></span>&nbsp; {{ i18n "viewOnMap" }}</a>
     {{ end }}
 
   </div>
@@ -41,34 +41,34 @@
 <div class="row">
   <div class="small-12 columns">
     <table class="contact">
-      {{ if isset .Params "website" }}
+      {{ with .Params.website }}
       <tr>
-        <td class="icon"><span class="fa fa-globe"></span></td>
-        <td><a href="{{ .Params.website }}">{{ .Params.website }}</a></td>
+        <td class="icon"><i class="fa fa-globe"></i></td>
+        <td><a href="{{ . }}">{{ . }}</a></td>
       </tr>
       {{end}}
-      {{ if isset .Params "facebook" }}
+      {{ with .Params.facebook }}
       <tr>
-        <td class="icon"><span class="fi-social-facebook"></span></td>
-        <td><a href="{{ .Params.facebook }}">Facebook Link</a></td>
+        <td class="icon"><i class="fi-social-facebook"></i></td>
+        <td><a href="{{ . }}">{{ i18n "companyFacebook" }}</a></td>
       </tr>
       {{end}}
-      {{ if isset .Params "twitter" }}
+      {{ with .Params.twitter }}
       <tr>
-        <td class="icon"><span class="fi-social-twitter"></span></td>
-        <td><a href="{{ .Params.twitter }}">Twitter Link</a></td>
+        <td class="icon"><i class="fi-social-twitter"></i></td>
+        <td><a href="{{ . }}">{{ i18n "companyTwitter" }}</a></td>
       </tr>
       {{end}}
-      {{ if isset .Params "linkedin" }}
+      {{ with .Params.linkedin }}
       <tr>
-        <td class="icon"><span class="fi-social-linkedin"></span></td>
-        <td><a href="{{ .Params.linkedin }}">LinkedIn Link</a></td>
+        <td class="icon"><i class="fi-social-linkedin"></i></td>
+        <td><a href="{{ . }}">{{ i18n "companyLinkedIn" }}</a></td>
       </tr>
       {{end}}
-      {{ if isset .Params "email" }}
+      {{ with .Params.email }}
       <tr>
-        <td class="icon"><span class="fa fa-envelope-o"></span></td>
-        <td><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></td>
+        <td class="icon"><i class="fa fa-envelope-o"></i></td>
+        <td><a href="mailto:{{ . }}">{{ . }}</a></td>
       </tr>
       {{end}}
     </table>

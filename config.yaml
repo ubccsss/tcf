@@ -11,32 +11,32 @@ publishdir: docs
 
 menu:
   main:
-  - name: Home
+  - identifier: home
     pre: <i class="fa fa-home"></i>
     url: /
     weight: -100
-  - name: Map
+  - identifier: map
     pre: <i class="fi-map"></i>
     url: /map/
     weight: -90
-  - name: Company List
+  - identifier: companies
     pre: <i class="fi-torsos-all"></i>
     url: /companies/
     weight: -80
-  - name: Need Help?
+  - identifier: help
     pre: <i class="fa fa-question-circle"></i>
     url: /help/
     weight: 100
-  - name: TCFxx on Facebook
+  - identifier: facebook
     pre: <i class="fi-social-facebook"></i>
     # Link to the event's facebook page
     url: https://www.facebook.com/events/2121618437859803/
     weight: 110
-  - name: UBC CareersOnline
+  - identifier: careersonline
     pre: <i class="icon-careers"></i>
     url: https://ubc-csm.symplicity.com/students/event/careerfairs/e21600eef949ee3ef4109f5fb47debca/overview?student
     weight: 120
-  - name: Privacy Policy
+  - identifier: privacy
     pre: <i class="fa fa-file-text-o"></i>
     url: /privacy/
     weight: 130
