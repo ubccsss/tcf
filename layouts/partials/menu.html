@@ -1,0 +1,14 @@
+<aside class="left-off-canvas-menu">
+    <ul class="off-canvas-list">
+        <li><label>Menu</label></li>
+        {{ $year := dateFormat "06" .Site.Params.date }}
+        {{ range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}">
+                <div class="img">{{ .Pre }}</div>
+                <div class="text">{{ replace .Name "xx" $year }}</div>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</aside>

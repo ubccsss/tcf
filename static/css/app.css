@@ -19,6 +19,7 @@
 .icon-careers:before {
     content: "\e072";
     font-family: 'ubcicons';
+    font-style: normal;
 }
 
 

@@ -6,7 +6,37 @@ googleAnalytics: UA-88004303-2
 params:
   # Day of the event. Also determines year, i.e. TCF20.
   date: 2019-01-31
-  # Link to the event's facebook page
-  facebook: https://www.facebook.com/events/2121618437859803/
 
 publishdir: docs
+
+menu:
+  main:
+  - name: Home
+    pre: <i class="fa fa-home"></i>
+    url: /
+    weight: -100
+  - name: Map
+    pre: <i class="fi-map"></i>
+    url: /map/
+    weight: -90
+  - name: Company List
+    pre: <i class="fi-torsos-all"></i>
+    url: /companies/
+    weight: -80
+  - name: Need Help?
+    pre: <i class="fa fa-question-circle"></i>
+    url: /help/
+    weight: 100
+  - name: TCFxx on Facebook
+    pre: <i class="fi-social-facebook"></i>
+    # Link to the event's facebook page
+    url: https://www.facebook.com/events/2121618437859803/
+    weight: 110
+  - name: UBC CareersOnline
+    pre: <i class="icon-careers"></i>
+    url: https://ubc-csm.symplicity.com/students/event/careerfairs/e21600eef949ee3ef4109f5fb47debca/overview?student
+    weight: 120
+  - name: Privacy Policy
+    pre: <i class="fa fa-file-text-o"></i>
+    url: /privacy/
+    weight: 130
