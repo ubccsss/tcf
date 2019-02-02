@@ -1,21 +1,14 @@
 /* GENERAL CLASSES */
 
-@font-face
-{
-    font-family: 'ubcicons';
-    src: url('../fonts/ubcicons.ttf'),
-    url('../fonts/ubcicons.eot'),
-    url('../fonts/ubcicons.woff'),
-    url('../fonts/ubcicons.svg'); /* IE9 */
-}
-
-
 @font-face {
   font-family: 'couture';
   font-style: bold;
   src: url('../fonts/couture-bld.otf'); /* No svg, eot, woff atm */
 }
 
+.icon {
+    vertical-align: baseline;
+}
 .icon-careers:before {
     content: "\e072";
     font-family: 'ubcicons';
@@ -138,10 +131,6 @@ ul.off-canvas-list li a div.img {
     background-color: #111111;
 }
 
-.maps-button span.fi-map {
-    font-size: 6rem;
-}
-
 .maps-button .button-text {
     display: table-cell;
     vertical-align: middle;
@@ -171,10 +160,6 @@ ul.off-canvas-list li a div.img {
 
 .exhibitor-button .button-text .image {
     padding-top: 5px;
-}
-
-.exhibitor-button span.fi-torsos-all {
-    font-size: 2.3rem;
 }
 
 .logo {
@@ -219,10 +204,6 @@ ul.off-canvas-list li a div.img {
 
 .help-button .button-text .image {
     padding-top: 5px;
-}
-
-.help-button span.fi-torsos-all {
-    font-size: 2.3rem;
 }
 
 .row.add-bottom {
@@ -438,6 +419,6 @@ table.contact {
     width: 100%;
 }
 
-table.contact .icon {
+table.contact td.icon {
     width: 10%;
 }

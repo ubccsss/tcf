@@ -22,11 +22,11 @@ This booth is located at the front of the venue, and you probably passed it on t
 
 ### Contact Us Directly
 
-If you can't find anyone and need help right away, just contact the CSSS VP External directly. She's here to help! <span class="fa fa-smile-o"></span>
+If you can't find anyone and need help right away, just contact the CSSS VP External directly. She's here to help! 🙂
 
 <div class="row actions-row max add-bottom">
 <div class="small-12 columns right">
-<a class="button action-button" href="tel:7786814965"><span class="fa fa-phone"></span>&nbsp; (778) 681-4965</a>
-<a class="button secondary action-button" href="mailto:vpx@ubccsss.org"><span class="fa fa-envelope-o"></span>&nbsp; vpx@ubccsss.org</a>
+<a class="button action-button" href="tel:7786814965"><img width="16" height="16" class="icon" src="/img/icons/phone.svg" alt="Email"></span>&nbsp; (778) 681-4965</a>
+<a class="button secondary action-button" href="mailto:vpx@ubccsss.org"><img width="16" height="16" class="icon" src="/img/icons/envelope.svg" alt="Email">&nbsp; vpx@ubccsss.org</a>
 </div>
 </div>

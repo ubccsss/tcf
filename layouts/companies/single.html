@@ -18,7 +18,9 @@
   </div>
   <div class="small-8 columns right">
     {{ if isset .Params "booth" }}
-    <a class="button action-button" href="/map/#booth-{{.Params.booth}}"><span class="fi-map"></span>&nbsp; {{ i18n "viewOnMap" }}</a>
+    <a class="button action-button" href="/map/#booth-{{.Params.booth}}">
+      <img width="16" height="16" class="icon" src="/img/icons/map-marked-alt-opaque.svg" alt="">&nbsp; {{ i18n "viewOnMap" }}
+    </a>
     {{ end }}
 
   </div>
@@ -43,31 +45,31 @@
     <table class="contact">
       {{ with .Params.website }}
       <tr>
-        <td class="icon"><i class="fa fa-globe"></i></td>
+        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/globe.svg" alt="Website"></td>
         <td><a href="{{ . }}">{{ . }}</a></td>
       </tr>
       {{end}}
       {{ with .Params.facebook }}
       <tr>
-        <td class="icon"><i class="fi-social-facebook"></i></td>
+        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/facebook-black.svg" alt="Facebook"></td>
         <td><a href="{{ . }}">{{ i18n "companyFacebook" }}</a></td>
       </tr>
       {{end}}
       {{ with .Params.twitter }}
       <tr>
-        <td class="icon"><i class="fi-social-twitter"></i></td>
+        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/twitter.svg" alt="Twitter"></td>
         <td><a href="{{ . }}">{{ i18n "companyTwitter" }}</a></td>
       </tr>
       {{end}}
       {{ with .Params.linkedin }}
       <tr>
-        <td class="icon"><i class="fi-social-linkedin"></i></td>
+        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/linkedin.svg" alt="LinkedIn"></td>
         <td><a href="{{ . }}">{{ i18n "companyLinkedIn" }}</a></td>
       </tr>
       {{end}}
       {{ with .Params.email }}
       <tr>
-        <td class="icon"><i class="fa fa-envelope-o"></i></td>
+        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/envelope-black.svg" alt="Email"></td>
         <td><a href="mailto:{{ . }}">{{ . }}</a></td>
       </tr>
       {{end}}
