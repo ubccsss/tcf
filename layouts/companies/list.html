@@ -1,0 +1,22 @@
+{{ define "header" }}
+{{ $css := resources.Get "/css/companies.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+{{ end }}
+
+{{ define "main" }}
+<ul class="inner companies">
+	{{ range sort .Pages "RelPermalink" }}
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">{{ .Title }}</h3>
+					{{ with .Params.booth }}
+					{{ partial "booth" (dict "booth" . "className" "companies__booth") }}
+					{{ end }}
+				</summary>
+				{{ .Content }}
+			</details>
+		</li>
+	{{end}}
+</ul>
+{{ end }}
