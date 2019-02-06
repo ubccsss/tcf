@@ -1,14 +1,12 @@
-<aside class="left-off-canvas-menu">
-    <ul class="off-canvas-list">
-        <li><label>{{ i18n "menu" }}</label></li>
-        {{ $year := dateFormat "06" .Site.Params.date }}
-        {{ range .Site.Menus.main }}
-        <li>
-            <a href="{{ .URL }}">
-                <div class="img">{{ .Pre }}</div>
-                <div class="text">{{ i18n .KeyName (dict "year" $year) }}</div>
-            </a>
-        </li>
-        {{ end }}
-    </ul>
-</aside>
+<h2 class="tcf-menu__heading">{{ i18n "menu" }}</h2>
+<ul class="tcf-menu__list">
+    {{ $year := dateFormat "06" .Site.Params.date }}
+    {{ range .Site.Menus.main }}
+    <li>
+        <a class="tcf-menu__item hover" href="{{ .URL }}">
+            <span class="tcf-menu__icon">{{ .Pre }}</span>
+            {{ i18n .KeyName (dict "year" $year) }}
+        </a>
+    </li>
+    {{ end }}
+</ul>
