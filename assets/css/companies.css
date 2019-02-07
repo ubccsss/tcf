@@ -23,25 +23,3 @@
     float: right;
     vertical-align: middle;
 }
-
-.booth {
-    display: inline-block;
-    height: 2.75em;
-
-    color: white;
-    background: #094b91;
-    text-decoration: none;
-    text-align: center;
-}
-.booth__title {
-    margin: 0;
-    padding: 0.25em 0.5em;
-
-    font-weight: 400;
-    background: rgba(255, 255, 255, 0.2);
-}
-.booth__number {
-    line-height: 1.5em;
-
-    font-weight: 700;
-}

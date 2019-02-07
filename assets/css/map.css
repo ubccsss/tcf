@@ -1,0 +1,43 @@
+.map__instructions {
+    text-align: center;
+    background: #3a6fa7;
+    color: #fff;
+}
+.map__front-desk {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.map {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(13, min-content);
+    grid-auto-flow: column;
+    gap: 4px;
+}
+.map__booth {
+    display: flex;
+    height: auto;
+}
+.map__booth::after {
+    /* Force booth to be square */
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    padding-bottom: 100%;
+}
+.booth__inner {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+.booth__number {
+    font-size: 7vmin;
+}
+.booth__company {
+    margin: 0 .25em;
+
+    font-size: 2.5vmin;
+}
