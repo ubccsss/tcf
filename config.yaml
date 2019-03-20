@@ -12,31 +12,31 @@ publishdir: docs
 menu:
   main:
   - identifier: home
-    pre: <img width="16" height="16" class="icon" src="/img/icons/home.svg" alt="">
+    pre: /img/icons/home.svg
     url: /
     weight: -100
   - identifier: map
-    pre: <img width="16" height="16" class="icon" src="/img/icons/map-marked-alt.svg" alt="">
+    pre: /img/icons/map-marked-alt.svg
     url: /map/
     weight: -90
   - identifier: companies
-    pre: <img width="16" height="16" class="icon" src="/img/icons/users.svg" alt="">
+    pre: /img/icons/users.svg
     url: /companies/
     weight: -80
   - identifier: help
-    pre: <img width="16" height="16" class="icon" src="/img/icons/question-circle.svg" alt="">
+    pre: /img/icons/question-circle.svg
     url: /help/
     weight: 100
   - identifier: facebook
-    pre: <img width="16" height="16" class="icon" src="/img/icons/facebook.svg" alt="">
+    pre: /img/icons/facebook.svg
     # Link to the event's facebook page
     url: https://www.facebook.com/events/2121618437859803/
     weight: 110
   - identifier: careersonline
-    pre: <img width="16" height="16" class="icon" src="/img/icons/careers.svg" alt="">
+    pre: /img/icons/careers.svg
     url: https://ubc-csm.symplicity.com/students/event/careerfairs/e21600eef949ee3ef4109f5fb47debca/overview?student
     weight: 120
   - identifier: privacy
-    pre: <img width="16" height="16" class="icon" src="/img/icons/file-alt.svg" alt="">
+    pre: /img/icons/file-alt.svg
     url: /privacy/
     weight: 130

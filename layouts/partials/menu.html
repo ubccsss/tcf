@@ -4,7 +4,9 @@
     {{ range .Site.Menus.main }}
     <li>
         <a class="tcf-menu__item hover" href="{{ .URL }}">
-            <span class="tcf-menu__icon">{{ .Pre }}</span>
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="{{ .Pre }}" alt="">
+            </span>
             {{ i18n .KeyName (dict "year" $year) }}
         </a>
     </li>
