@@ -10,7 +10,22 @@
     border-radius: 4px;
 }
 .companies__summary {
+    display: flex;
+
     cursor: pointer;
+}
+.companies__summary::before {
+    content: '';
+    margin: 5px 7px 5px 8px;
+    align-self: center;
+
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent currentColor;
+    transition: transform .1s ease-out;
+}
+.companies__details[open] .companies__summary::before {
+    transform: rotate(90deg);
 }
 .companies__title {
     display: inline-block;
@@ -20,6 +35,5 @@
     font-weight: normal;
 }
 .companies__booth {
-    float: right;
-    vertical-align: middle;
+    margin-left: auto;
 }
