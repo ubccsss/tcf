@@ -29,6 +29,9 @@
 .map__booth:nth-child(4) {
     margin-bottom: 5vmin;
 }
+.map__booth:target {
+    background: #900000;
+}
 .map__booth::after {
     /* Force booth to be square */
     content: '';
