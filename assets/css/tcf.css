@@ -151,6 +151,10 @@ body {
     grid-area: main;
 }
 
+.fullwidth-image {
+    max-width: 100%;
+}
+
 @media (max-width: 70rem) {
     .tcf {
         width: calc(100% + var(--menu-width));

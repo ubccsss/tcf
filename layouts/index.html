@@ -14,21 +14,31 @@
 	<link rel="shortcut icon" sizes="196x196" href="img/icon-196.png" />
 {{ end }}
 {{ define "main" }}
-<a href="/map/" class="button maps-button">
-	<span class="button-text">
-		<img width="96" height="96" class="icon" src="/img/icons/map-marked-alt-opaque.svg" alt=""> <br />{{ i18n "map" }}
-	</span>
-</a>
-<a href="/companies/" class="button exhibitor-button">
-	<span class="button-text">
-		<div class="image"><img width="32" height="32" class="icon" src="/img/icons/users-opaque.svg" alt=""></div>
-		<div class="text">{{ i18n "companies" }}</div>
-	</span>
-</a>
-<a href="/help/" class="button help-button alert">
-	<span class="button-text">
-		<div class="image"><img width="32" height="32" class="icon" src="/img/icons/question-circle-opaque.svg" alt=""></div>
-		<div class="text">{{ i18n "help" }}</div>
-	</span>
-</a>
+<div class="inner">
+	<h1>{{.Site.Title}} {{dateFormat "2006" .Site.Params.date}}</h1>
+
+	<img class="fullwidth-image" src="/img/image-from-fair.jpg" alt='{{i18n "imageOfFair"}}' height="431" width="868">
+
+	{{ .Content }}
+
+	<p>
+		<strong>Date:</strong> <time datetime='{{dateFormat "2006-01-02" .Site.Params.date}}'>{{dateFormat "January 2, 2006" .Site.Params.date}}</time>
+	</p>
+	<p>
+		<strong>Time:</strong> <time datetime='{{dateFormat "15:04:05" .Site.Params.date}}'>{{dateFormat "15:04" .Site.Params.date}}</time> to <time datetime='{{dateFormat "15:04:05" .Site.Params.end}}'>{{dateFormat "15:04" .Site.Params.end}}</time>
+	</p>
+	<p>
+		<strong>Location:</strong> {{.Site.Params.location.name}}
+	</p>
+
+	<a class="hover action-button" href="/map/">
+		<img width="16" height="16" class="icon" src="/img/icons/map-marked-alt.svg" alt="">&nbsp; {{ i18n "map" }}
+	</a>
+	<a class="hover action-button" href="/companies/">
+		<img width="16" height="16" class="icon" src="/img/icons/users.svg" alt="">&nbsp; {{ i18n "companies" }}
+	</a>
+	<a class="hover action-button action-button--secondary" href="/help/">
+		<img width="16" height="16" class="icon" src="/img/icons/question-circle.svg" alt="">&nbsp; {{ i18n "help" }}
+	</a>
+</div>
 {{ end }}
