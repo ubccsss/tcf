@@ -34,6 +34,9 @@
 
     font-weight: normal;
 }
+.companies__link {
+    color: inherit;
+}
 .companies__booth {
     margin-left: auto;
 }

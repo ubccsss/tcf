@@ -1,79 +1,61 @@
+{{ define "header" }}
+<link rel="stylesheet" href='{{ (resources.Get "/css/company.css" | resources.Minify).RelPermalink }}' />
+<link rel="stylesheet" href='{{ (resources.Get "/css/booth.css" | resources.Minify).RelPermalink }}' />
+{{ end }}
+
 {{ define "main" }}
-<div class="company-image-bg">
+<div class="company__hero">
   {{ if isset .Params "logo" }}
-  <img src="/media/{{ .Params.logo }}" />
+  <img class="company__logo" src="/media/{{ .Params.logo }}" alt="Company logo" />
   {{ else }}
-  <div class="spacer"></div>
+  <div class="company__hero-spacer"></div>
   {{ end }}
 </div>
 
-<div class="row actions-row {{ if isset .Params "booth" }}max{{end}}">
-  <div class="small-4 columns left">
-    {{ if isset .Params "booth" }}
-    <div class="booth-pre">{{ i18n "booth" }}</div>
-    <div class="booth"><span class="booth-text">{{.Params.booth}}</span></div>
-    {{ else }}
-    <div class="no-booth">{{ i18n "noBooth" }}</div>
-    {{ end }}
-  </div>
-  <div class="small-8 columns right">
-    {{ if isset .Params "booth" }}
-    <a class="button action-button" href="/map/#booth-{{.Params.booth}}">
-      <img width="16" height="16" class="icon" src="/img/icons/map-marked-alt-opaque.svg" alt="">&nbsp; {{ i18n "viewOnMap" }}
-    </a>
-    {{ end }}
-
-  </div>
+{{ with .Params.booth }}
+<div class="inner company__booth-container">
+  {{ partial "booth" (dict "booth" . "className" "company__booth") }}
+  <a class="button action-button company_on-map" href="/map/#booth-{{.}}">
+    <img width="16" height="16" class="icon" src="/img/icons/map-marked-alt-opaque.svg" alt="">&nbsp; {{ i18n "viewOnMap" }}
+  </a>
 </div>
+{{ end }}
 
-<hr />
+<div class="inner">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
 
-<div class="row">
-  <div class="small-12 columns">
-    <h1>{{ .Title }}</h1>
-  </div>
-</div>
-
-<div class="row">
-  <div class="small-12 columns">
-    {{ .Content }}
-  </div>
-</div>
-
-<div class="row">
-  <div class="small-12 columns">
-    <table class="contact">
-      {{ with .Params.website }}
-      <tr>
-        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/globe.svg" alt="Website"></td>
-        <td><a href="{{ . }}">{{ . }}</a></td>
-      </tr>
-      {{end}}
-      {{ with .Params.facebook }}
-      <tr>
-        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/facebook-black.svg" alt="Facebook"></td>
-        <td><a href="{{ . }}">{{ i18n "companyFacebook" }}</a></td>
-      </tr>
-      {{end}}
-      {{ with .Params.twitter }}
-      <tr>
-        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/twitter.svg" alt="Twitter"></td>
-        <td><a href="{{ . }}">{{ i18n "companyTwitter" }}</a></td>
-      </tr>
-      {{end}}
-      {{ with .Params.linkedin }}
-      <tr>
-        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/linkedin.svg" alt="LinkedIn"></td>
-        <td><a href="{{ . }}">{{ i18n "companyLinkedIn" }}</a></td>
-      </tr>
-      {{end}}
-      {{ with .Params.email }}
-      <tr>
-        <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/envelope-black.svg" alt="Email"></td>
-        <td><a href="mailto:{{ . }}">{{ . }}</a></td>
-      </tr>
-      {{end}}
-    </table>
-  </div>
+  <table class="company__contact">
+    {{ with .Params.website }}
+    <tr>
+      <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/globe.svg" alt="Website"></td>
+      <td><a href="{{ . }}">{{ . }}</a></td>
+    </tr>
+    {{end}}
+    {{ with .Params.facebook }}
+    <tr>
+      <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/facebook-black.svg" alt="Facebook"></td>
+      <td><a href="{{ . }}">{{ i18n "companyFacebook" }}</a></td>
+    </tr>
+    {{end}}
+    {{ with .Params.twitter }}
+    <tr>
+      <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/twitter.svg" alt="Twitter"></td>
+      <td><a href="{{ . }}">{{ i18n "companyTwitter" }}</a></td>
+    </tr>
+    {{end}}
+    {{ with .Params.linkedin }}
+    <tr>
+      <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/linkedin.svg" alt="LinkedIn"></td>
+      <td><a href="{{ . }}">{{ i18n "companyLinkedIn" }}</a></td>
+    </tr>
+    {{end}}
+    {{ with .Params.email }}
+    <tr>
+      <td class="icon"><img width="14" height="14" class="icon" src="/img/icons/envelope-black.svg" alt="Email"></td>
+      <td><a href="mailto:{{ . }}">{{ . }}</a></td>
+    </tr>
+    {{end}}
+  </table>
 </div>
 {{ end }}

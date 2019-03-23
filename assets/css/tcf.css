@@ -7,6 +7,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    color: #094b91;
+    text-decoration: none;
+}
+
 /**
  * Hover effect for buttons
  */

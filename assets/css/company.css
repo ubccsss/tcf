@@ -1,0 +1,35 @@
+.company__hero {
+    background: url(/img/companypage.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.company__logo {
+    padding: .5em;
+    background: #fff;
+    margin: 4.5em 0;
+}
+.company__hero-spacer {
+    height: 16em;
+}
+
+.company__booth-container {
+    display: flex;
+}
+.company__booth {
+    font-size: 1.6em;
+}
+.company_on-map {
+    margin-left: 1em;
+    flex: 1;
+}
+
+.company__contact {
+    width: 100%;
+    border: solid 1px #ddd;
+    font-size: .875rem;
+    color: #222;
+}
+.company__contact td {
+    line-height: 1.125rem;
+    padding: .5625rem .625rem;
+}

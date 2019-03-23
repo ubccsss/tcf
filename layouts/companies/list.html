@@ -9,7 +9,9 @@
 		<li class="companies__item">
 			<details class="companies__details">
 				<summary class="companies__summary">
-					<h3 class="companies__title">{{ .Title }}</h3>
+					<h3 class="companies__title">
+						<a class="companies__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					</h3>
 					{{ with .Params.booth }}
 					{{ partial "booth" (dict "booth" . "className" "companies__booth") }}
 					{{ end }}
