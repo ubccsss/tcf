@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: 2016-11-02T19:46:36Z
+date: 2016-11-02 19:46:36
 ---
 
 # Privacy Policy

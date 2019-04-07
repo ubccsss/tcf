@@ -5,8 +5,47 @@ googleAnalytics: UA-88004303-2
 
 params:
   # Day of the event. Also determines year, i.e. TCF20.
-  date: 2019-01-31
-  # Link to the event's facebook page
-  facebook: https://www.facebook.com/events/2121618437859803/
+  date: 2019-01-31 10:00:00
+  end: 2019-01-31 16:00:00
+  location:
+    name: Life Science Building
+    address:
+      streetAddress: 2350 Health Sciences Mall
+      addressLocality: Vancouver
+      postalCode: V6T 1Z3
+      addressRegion: BC
+      addressCountry: CA
 
 publishdir: docs
+
+menu:
+  main:
+  - identifier: home
+    pre: /img/icons/home.svg
+    url: /
+    weight: -100
+  - identifier: map
+    pre: /img/icons/map-marked-alt.svg
+    url: /map/
+    weight: -90
+  - identifier: companies
+    pre: /img/icons/users.svg
+    url: /companies/
+    weight: -80
+  - identifier: help
+    pre: /img/icons/question-circle.svg
+    url: /help/
+    weight: 100
+  - identifier: facebook
+    pre: /img/icons/facebook.svg
+    # Link to the event's facebook page
+    url: https://www.facebook.com/events/2121618437859803/
+    weight: 110
+  - identifier: careersonline
+    pre: /img/icons/careers.svg
+    url: https://ubc-csm.symplicity.com/students/event/careerfairs/e21600eef949ee3ef4109f5fb47debca/overview?student
+    weight: 120
+  - identifier: privacy
+    pre: /img/icons/file-alt.svg
+    url: /privacy/
+    weight: 130

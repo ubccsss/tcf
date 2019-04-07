@@ -1,33 +1,39 @@
+{{ define "header" }}
+<link rel="stylesheet" href='{{ (resources.Get "/css/booth.css" | resources.Minify).RelPermalink }}' />
+<link rel="stylesheet" href='{{ (resources.Get "/css/map.css" | resources.Minify).RelPermalink }}' />
+{{ end }}
+
 {{ define "main" }}
-<div class="map-instructions">
-    <div class="map-instructions-text">
-        Please select a booth number to get more information about the company.
-    </div>
+<div class="map__instructions">
+    <p class="inner">
+        {{ i18n "selectBooth" }}
+    </p>
 </div>
 
-<div class="map-container">
-    <div class="map-row">
-        {{ $pages := where .Site.Pages "Section" "companies" }}
-        {{ $booths := 52 }}
-        {{ $rows := 4 }}
-        {{ $columns := div $booths $rows }}
-        {{ range (seq 0 (sub $columns 1)) }}
-        {{ $y := . }}
-        {{ range (seq 0 (sub $rows 1)) }}
-        {{ $x := . }}
-        {{ $i := add (add (mul $x $columns) $y) 1 }}
-        {{ $is := printf "%d" $i }}
-        {{ $page := (index (where $pages "Params.booth" $is) 0)}}
-        <a id="booth-{{$i}}" class="booth {{if not $page}}disabled{{end}}" href="{{$page.RelPermalink}}">
-            <div class="booth-text">{{ $i }}</div>
-            <div class="booth-title">{{ $page.Title }}</div>
+{{ $companies := sort (.GetPage "/companies").Pages "Params.booth" }}
+
+{{ $columns := 4 }}
+{{ $rows := div (len $companies) $columns }}
+<div class="map inner" style="--columns:{{$columns}}">
+    {{ range $x := seq 0 (sub $columns 1) }}
+    <div class="map__column">
+        {{ range $y := seq 0 (sub $rows 1) }}
+
+        {{ $i := add (mul $x $rows) $y }}
+        {{ with index $companies $i }}
+        <a id="booth-{{ .Params.booth }}" class="hover booth map__booth" href="{{ .RelPermalink }}">
+            <div class="booth__inner">
+                <h5 class="booth__number">{{ .Params.booth }}</h5>
+                <p class="booth__company">{{ .Title }}</p>
+            </div>
         </a>
-        {{end}}
-        {{end}}
+        {{ end }}
+        {{ end }}
     </div>
+    {{ end }}
 </div>
 
-<div class="map-label">
-    Check-in Table / South Doors (Agronomy Road)
+<div class="map__front-desk inner">
+    {{ i18n "checkInTable" }}
 </div>
 {{ end }}

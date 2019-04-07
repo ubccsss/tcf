@@ -1,20 +1,44 @@
 {{ define "header" }}
 	<!-- For iOS web apps -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-title" content="{{.Site.Title}}">
-	<link rel="apple-touch-icon" href="img/icon-60.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/icon-76.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/icon-120.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/icon-152.png">
-	<link rel="apple-touch-startup-image" href="img/splash.png">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-title" content="{{.Site.Title}}" />
+	<link rel="apple-touch-icon" href="img/icon-60.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon-76.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon-120.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon-152.png" />
+	<link rel="apple-touch-startup-image" href="img/splash.png" />
 
 	<!-- For Android (Chrome) web apps -->
-	<meta name="mobile-web-app-capable" content="yes">
-	<link rel="shortcut icon" sizes="196x196" href="img/icon-196.png">
+	<meta name="mobile-web-app-capable" content="yes" />
+	<link rel="shortcut icon" sizes="196x196" href="img/icon-196.png" />
 {{ end }}
 {{ define "main" }}
-<a href="/map/" class="button maps-button"><span class="button-text"><span class="fi-map"></span> <br />Map</span></a>
-<a href="/companies/" class="button exhibitor-button"><span class="button-text"><div class="image"><span class="fi-torsos-all"></span></div><div class="text">Company List</div></span></a>
-<a href="/help/" class="button help-button alert"><span class="button-text"><div class="image"><span class="fa fa-question-circle"></span></div><div class="text">Need Help?</div></span></a>
+<div class="inner">
+	<h1>{{.Site.Title}} {{dateFormat "2006" .Site.Params.date}}</h1>
+
+	<img class="fullwidth-image" src="/img/image-from-fair.jpg" alt='{{i18n "imageOfFair"}}' height="431" width="868">
+
+	{{ .Content }}
+
+	<p>
+		<strong>Date:</strong> <time datetime='{{dateFormat "2006-01-02" .Site.Params.date}}'>{{dateFormat "January 2, 2006" .Site.Params.date}}</time>
+	</p>
+	<p>
+		<strong>Time:</strong> <time datetime='{{dateFormat "15:04:05" .Site.Params.date}}'>{{dateFormat "15:04" .Site.Params.date}}</time> to <time datetime='{{dateFormat "15:04:05" .Site.Params.end}}'>{{dateFormat "15:04" .Site.Params.end}}</time>
+	</p>
+	<p>
+		<strong>Location:</strong> {{.Site.Params.location.name}}
+	</p>
+
+	<a class="hover action-button" href="/map/">
+		<img width="16" height="16" class="icon" src="/img/icons/map-marked-alt.svg" alt="">&nbsp; {{ i18n "map" }}
+	</a>
+	<a class="hover action-button" href="/companies/">
+		<img width="16" height="16" class="icon" src="/img/icons/users.svg" alt="">&nbsp; {{ i18n "companies" }}
+	</a>
+	<a class="hover action-button action-button--secondary" href="/help/">
+		<img width="16" height="16" class="icon" src="/img/icons/question-circle.svg" alt="">&nbsp; {{ i18n "help" }}
+	</a>
+</div>
 {{ end }}

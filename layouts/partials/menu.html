@@ -1,0 +1,14 @@
+<h2 class="tcf-menu__heading">{{ i18n "menu" }}</h2>
+<ul class="tcf-menu__list">
+    {{ $year := dateFormat "06" .Site.Params.date }}
+    {{ range .Site.Menus.main }}
+    <li>
+        <a class="tcf-menu__item hover" href="{{ .URL }}">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="{{ .Pre }}" alt="">
+            </span>
+            {{ i18n .KeyName (dict "year" $year) }}
+        </a>
+    </li>
+    {{ end }}
+</ul>

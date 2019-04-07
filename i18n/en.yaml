@@ -1,0 +1,39 @@
+- id: map
+  translation: Map
+- id: companies
+  translation: Company List
+- id: help
+  translation: Need Help?
+- id: home
+  translation: Home
+- id: facebook
+  translation: TCF{{ .year }} on Facebook
+- id: careersonline
+  translation: UBC CareersOnline
+- id: privacy
+  translation: Privacy Policy
+
+- id: menu
+  translation: Menu
+- id: imageOfFair
+  translation: People and booths at the Technical Career Fair
+
+- id: selectBooth
+  translation: Please select a booth number to get more information about the company.
+- id: checkInTable
+  translation: Check-in Table / South Doors (Agronomy Road)
+
+- id: booth
+  translation: Booth
+- id: noBooth
+  translation: No Booth
+
+- id: viewOnMap
+  translation: View on Map
+
+- id: companyFacebook
+  translation: Facebook Link
+- id: companyTwitter
+  translation: Twitter Link
+- id: companyLinkedIn
+  translation: LinkedIn Link
