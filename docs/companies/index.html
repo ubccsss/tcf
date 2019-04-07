@@ -1,39 +1,22 @@
 <!DOCTYPE html>
-
-<html class="no-js" lang="en">
+<html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
-        />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
             Companies -
             UBC Technical Career Fair 2019
         </title>
 
         <link
-            href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
+            href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"
             rel="stylesheet"
             type="text/css"
         />
-        
-        <link
-            rel="shortcut icon"
-            href="https://ubccsss.org/sites/all/themes/ubccsss.org-drupal-theme/favicon.ico"
-            type="image/vnd.microsoft.icon"
-        />
+        <link rel="icon" type="image/png" href="/img/favicon.png" />
 
         
-        <link rel="stylesheet" href="/css/normalize.css" />
-        <link rel="stylesheet" href="/css/foundation.css" />
-        <link rel="stylesheet" href="/css/foundation-icons.css" />
-        <link rel="stylesheet" href="/css/font-awesome.css" />
-
-        
-        <link rel="stylesheet" href="/css/app.css" />
-
-        <script src="/js/vendor/custom.modernizr.js"></script>
+        <link rel="stylesheet" href="/css/tcf.min.css" />
         
 <script type="application/javascript">
 var doNotTrack = false;
@@ -49,460 +32,1202 @@ if (!doNotTrack) {
 
         
         
-        
+<link rel="stylesheet" href='/css/companies.min.css' />
+<link rel="stylesheet" href='/css/booth.min.css' />
+
     </head>
 
-    <body>
-        <div class="off-canvas-wrap scrollable">
-            <div class="inner-wrap">
-                <nav class="tab-bar header">
-                    <section class="left-small">
-                        <a class="left-off-canvas-toggle menu-icon"><span></span></a>
-                    </section>
+    <body class="tcf__container">
+        <div class="tcf">
+            <header class="tcf-header">
+                <button class="tcf-header__menu-button hover" type="button">&#9776;</button>
+                <a href="/" class="logo">
+                    <h1 class="logo__text">
+                        <img src="/img/logo.svg" height="30" class="logo__img" alt="TCF"><span class="logo__year">19</span>
+                    </h1>
+                </a>
+            </header>
 
-                    <section class="middle tab-bar-section">
-                        <h1 class="title">
-                            <a href="/">
-                                <span class="logo"><b>TCF</b>19</span>
-                            </a>
-                        </h1>
-                    </section>
-                </nav>
+            <aside class="tcf-menu">
+                <h2 class="tcf-menu__heading">Menu</h2>
+<ul class="tcf-menu__list">
+    
+    
+    <li>
+        <a class="tcf-menu__item hover" href="/">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="/img/icons/home.svg" alt="">
+            </span>
+            Home
+        </a>
+    </li>
+    
+    <li>
+        <a class="tcf-menu__item hover" href="/map/">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="/img/icons/map-marked-alt.svg" alt="">
+            </span>
+            Map
+        </a>
+    </li>
+    
+    <li>
+        <a class="tcf-menu__item hover" href="/companies/">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="/img/icons/users.svg" alt="">
+            </span>
+            Company List
+        </a>
+    </li>
+    
+    <li>
+        <a class="tcf-menu__item hover" href="/help/">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="/img/icons/question-circle.svg" alt="">
+            </span>
+            Need Help?
+        </a>
+    </li>
+    
+    <li>
+        <a class="tcf-menu__item hover" href="https://www.facebook.com/events/2121618437859803/">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="/img/icons/facebook.svg" alt="">
+            </span>
+            TCF19 on Facebook
+        </a>
+    </li>
+    
+    <li>
+        <a class="tcf-menu__item hover" href="https://ubc-csm.symplicity.com/students/event/careerfairs/e21600eef949ee3ef4109f5fb47debca/overview?student">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="/img/icons/careers.svg" alt="">
+            </span>
+            UBC CareersOnline
+        </a>
+    </li>
+    
+    <li>
+        <a class="tcf-menu__item hover" href="/privacy/">
+            <span class="tcf-menu__icon">
+                <img width="16" height="16" class="icon" src="/img/icons/file-alt.svg" alt="">
+            </span>
+            Privacy Policy
+        </a>
+    </li>
+    
+</ul>
 
-                <aside class="left-off-canvas-menu">
-                    <ul class="off-canvas-list">
-                        <li><label>Menu</label></li>
-                        <li>
-                            <a href="/">
-                                <div class="img"><span class="fa fa-home"></span></div>
-                                <div class="text">Home</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/map/">
-                                <div class="img"><span class="fi-map"></span></div>
-                                <div class="text">Map</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/companies/">
-                                <div class="img"><span class="fi-torsos-all"></span></div>
-                                <div class="text">Company List</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/help/">
-                                <div class="img"><span class="fa fa-question-circle"></span></div>
-                                <div class="text">Need Help?</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/events/2121618437859803/">
-                                <div class="img"><span class="fi-social-facebook"></span></div>
-                                <div class="text">
-                                    TCF19 on
-                                    Facebook
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://ubc-csm.symplicity.com/students/event/careerfairs/e21600eef949ee3ef4109f5fb47debca/overview?student"
-                            >
-                                <div class="img"><span class="icon-careers"></span></div>
-                                <div class="text">UBC CareersOnline</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/privacy/">
-                                <div class="img"><span class="fa fa-file-text-o"></span></div>
-                                <div class="text">Privacy Policy</div>
-                            </a>
-                        </li>
-                    </ul>
-                </aside>
+            </aside>
 
-                <section class="main-section">
-                    
-<ul class="company-list">
+            <main class="tcf-main">
+                
+<ul class="inner companies">
 	
-		<li><a href="/companies/a-thinking-ape/">
-				A Thinking Ape
-				
-					- Booth 14
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/a-thinking-ape/">A Thinking Ape</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-14">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">14</p>
+</a>
+
+					
+				</summary>
+				<p>A Thinking Ape is a small yet driven team that is dedicated to building strong mobile communities.</p>
+
+<p>With our collaborative approach to product design, we ensure the best ideas get the space they need to grow.</p>
+
+<p>Our team seeks out intuitive solutions to complex problems, and maintains strong ties to our hacker culture.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/apple/">
-				Apple
-				
-					- Booth 13
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/apple/">Apple</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-13">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">13</p>
+</a>
+
+					
+				</summary>
+				<p>Apple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, Mac, Apple Watch and Apple TV. Apple&rsquo;s four software platforms - iOS, macOS, watchOS and tvOS - provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay and iCloud. Apple&rsquo;s more than 100,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/appneta/">
-				AppNeta
-				
-					- Booth 21
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/appneta/">AppNeta</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-21">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">21</p>
+</a>
+
+					
+				</summary>
+				<p>AppNeta is the leader in proactive end-user performance monitoring solutions built for the distributed enterprise. With AppNeta, IT and Network Ops teams can assure continual and exceptional delivery of business-critical applications. AppNeta&rsquo;s SaaS-based solutions give IT teams essential application and network performance data, allowing them to continuously monitor user experience across any application, network, data center or cloud.</p>
+
+<p>At AppNeta, we take application and network performance seriously without taking ourselves too seriously. We are big believers in a work hard, play hard culture. We offer everything from catered lunch and free snacks to commuter benefits and Maternity/Paternity leave, and pride ourselves on providing a challenging yet fun and collaborative environment.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/aquatic-infomatics/">
-				Aquatic Informatics
-				
-					- Booth 45
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/aquatic-infomatics/">Aquatic Informatics</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-45">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">45</p>
+</a>
+
+					
+				</summary>
+				<p>Aquatic Informatics™ provides leading software solutions that address critical water data management and analysis challenges for the rapidly growing environmental monitoring industry. Aquatic Informatics is the trusted provider of hydrologic management solutions to hundreds of federal, state/provincial and local government departments, hydropower operators, mining companies, academic groups, and consulting organizations around the world, who collect, manage, and process large volumes of water quality or quantity data.</p>
+
+<p>Aquatic Informatics has earned a global reputation for innovation in environmental data management. At home, Aquatic Informatics has forged strong relationships with a diverse range of organizations including Environment Canada – Water Survey Canada, Manitoba Water Stewardship, Saskatchewan Watershed Authority, B.C. Environment, the University of British Columbia, and the Canadian National Research Council. In the United States, we have provided water data management solutions to organizations that include the US Geological Survey, the US Army Corps of Engineers, and the US National Parks Service as well as over a dozen large state agencies and many regional and local organizations. Overseas, we have worked with Southern Water of Australia, Tasmania Department of Primary Industries, Parks, Water and Environment, Alcoa of Australia, the Principality of Monaco, the National Water Authority of Romania, the National Research Institute of Norway and many others.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/arista-networks/">
-				Arista Networks
-				
-					- Booth 48
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/arista-networks/">Arista Networks</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-48">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">48</p>
+</a>
+
+					
+				</summary>
+				<p>Arista Networks was founded to deliver cloud networking solutions for large data center and computing environments. Arista offers a broad portfolio of Gigabit Ethernet solutions including 1,10 and 40 GbE switches that redefine network architectures, bring extensibility to networking and dramatically change the price/performance of data center networks. At the core of Arista&rsquo;s platform is EOS (Extensible Operating System), the world&rsquo;s most advanced network operating system, designed to build software defined cloud networks. EOS provides a single image consistency across hardware platforms and a modern core architecture enabling in-service upgrades and application extensibility.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/avigilon/">
-				Avigilon
-				
-					- Booth 33
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/avigilon/">Avigilon</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-33">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">33</p>
+</a>
+
+					
+				</summary>
+				<p>Pronunciation: a-vigil-on
+Definition: To be perpetually alert and watchful</p>
+
+<p>Avigilon designs, develops, and manufactures video analytics, network video management software and hardware, surveillance cameras, and access control solutions. Avigilon&rsquo;s solutions have been installed at thousands of customer sites, including school campuses, transportation systems, healthcare centers, public venues, critical infrastructure, prisons, factories, casinos, airports, financial institutions, government facilities, and retailer</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/axiom-zen/">
-				Dapper Labs (Axiom Zen)
-				
-					- Booth 17
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/axiom-zen/">Dapper Labs (Axiom Zen)</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-17">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">17</p>
+</a>
+
+					
+				</summary>
+				<p>Axiom Zen is the venture studio behind several successful startups including Dapper Labs (the makers of CryptoKitties), ZenHub (the world&rsquo;s leading developer-focused project management platform), Routific (the world&rsquo;s leading route optimization engine), and many others. Formed in February 2018, Dapper Labs was spun out of Axiom Zen to spread the benefits of decentralization through the power of play, fairness, and true ownership.</p>
+
+<p>Axioms are humble and curious entrepreneurs, builders, and tinkerers who share a passion to demystify blockchain technology and tap its potential to create change in the world. Everyone here is a founder, and no one fits in a box. We&rsquo;re all driven by an insatiable thirst for learning and development, and that&rsquo;s what brings us together.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/benevity/">
-				Benevity Inc.
-				
-					- Booth 29
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/benevity/">Benevity Inc.</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-29">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">29</p>
+</a>
+
+					
+				</summary>
+				<p>Better Work and a Better World: at Benevity that’s what we’re all about. We’re a software company in the business of doing good, building better ways for companies to connect with their customers and employees around causes (we make “doing well by doing good” more than just a tagline!). We’re growing fast and looking for more great people to join us.</p>
+
+<p>We’re not Bono, just a passionate crew of workhorses out to change the world. We have that fun, flexible tech culture that people love (ok, some people – you know who you are!) – and we have a heart. We’re a registered B Corporation, which means we’re part of a new breed of companies committed to higher social and environmental standards.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/best-buy/">
-				Best Buy Canada
-				
-					- Booth 36
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/best-buy/">Best Buy Canada</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-36">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">36</p>
+</a>
+
+					
+				</summary>
+				<p>Best Buy Canada is one of the largest omni-channel retailers of consumer electronics, computers and entertainment products, related accessories and services in Canada.</p>
+
+<p>Our Canadian Corporate Head Quarters is 140,000 square feet, two stories high and is designed as an open office environment where teamwork is encouraged. Being located in Burnaby B.C. offers a great lifestyle living on the West Coast of Canada. With great food and Starbucks coffee made available in our subsidized cafeteria, a full fitness center on-site, a nearby outdoor park with running paths along the scenic Fraser River, free shuttle and parking, and much more, the energy of Best Buy Canada, Ltd. is undeniable.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/bgc-engineering/">
-				BGC Engineering
-				
-					- Booth 7
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/bgc-engineering/">BGC Engineering</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-7">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">7</p>
+</a>
+
+					
+				</summary>
+				<p>BGC Engineering Inc. is an international consulting firm providing engineering and geoscience services to the mining, energy, and transportation industries over the last 27 years. We offer you the potential to work on the world&rsquo;s most recognizable client projects with world class technical experts in applied earth sciences complimented with a strong focus on career development, while also promoting a social environment that encourages a healthy work-life balance. BGC is a growing team of over 400 people working in a unique employee-owned company with a flat management structure that emphasizes teamwork and shared leadership at all levels. Our core values of One Team, Excellence, Common Sense, Curiosity and Clarity reflect our culture that is flexible in structure.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/clio/">
-				Clio
-				
-					- Booth 23
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/clio/">Clio</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-23">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">23</p>
+</a>
+
+					
+				</summary>
+				<p>Clio is the most comprehensive cloud-based practice management platform for the legal industry. With the help of the cloud, Clio eases the process of time tracking, billing, administration, and collaboration for law firms of all sizes. Based in Vancouver, B.C. and launched in 2008, Clio is used by legal professionals in over 50 countries. Clio has raised $27 million from investors including Bessemer Venture Partners. Learn more at www.clio.com.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/copperleaf/">
-				Copperleaf Technologies
-				
-					- Booth 15
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/copperleaf/">Copperleaf Technologies</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-15">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">15</p>
+</a>
+
+					
+				</summary>
+				<p>Building a better world one decision at a time.
+Copperleaf provides Decision Analytics to companies facing the challenges of managing critical infrastructure. Our enterprise software solutions leverage operational and financial data to help our clients make investment decisions that deliver the highest value to their stakeholders. Copperleaf’s dynamic risk and value framework, predictive analytics, state-of-the-art optimization, and interactive visualizations empower businesses to make complex investment decisions with confidence. In 2016, Canadian Business Magazine named Copperleaf as one of the top 20 fastest-growing software companies in Canada. Headquartered in Vancouver, our solutions are distributed and supported by regional staff and partners worldwide.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/cpp-investment-board/">
-				CPP Investment Board
-				
-					- Booth 22
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/cpp-investment-board/">CPP Investment Board</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-22">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">22</p>
+</a>
+
+					
+				</summary>
+				<p>We have a profound responsibility: to invest the assets belonging to 20 million
+Canadians to help ensure the sustainability of the Canada Pension Plan.</p>
+
+<p>To meet this responsibility, CPPIB was created with a singular investment
+objective: to maximize returns without undue risk of loss. In doing so we are
+explicitly required to act in the best interests of contributors and
+beneficiaries and take into account the factors that affect the financial
+obligations of the CPP.</p>
+
+<p>Our governance model – recognized worldwide as a leading standard for national
+pension plans – is critical to our ability to fulfill our responsibility. We
+operate at arm’s length from government while also being strictly accountable –
+through policies, regulations, and our enabling legislation.</p>
+
+<p>Our Enterprise Risk Management framework ensures that the risks we take are
+commensurate with the long-term benefits we can achieve.</p>
+
+<p>Our belief in the importance of transparency – around what we do and how we work
+– is essential to ensuring the trust and confidence of our stakeholders.
+Our ability to invest for the long term – we think in terms of quarter centuries
+not quarters – means we can stay the course and be driven by sound,
+forward-looking thinking rather than the need for short-term gains.</p>
+
+<p>The efficient and sophisticated platform made possible by our scale, and the
+reliable source of contributions that gives certainty to our assets mean we can
+seize investment opportunities when others can’t.</p>
+
+<p>Most of all, our global team of talented and experienced professionals helps us
+assume this vital responsibility and strives to meet it with integrity, mutual
+respect, and professionalism. Every employee of CPPIB is motivated each day by
+the opportunity to work on behalf of Canadians and to fulfill our unique
+mandate.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/cse/">
-				Communications Security Establishment
-				
-					- Booth 49
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/cse/">Communications Security Establishment</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-49">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">49</p>
+</a>
+
+					
+				</summary>
+				<p>The Communications Security Establishment is one of Canada’s key security and intelligence organizations. For 70 years CSE has been committed to the safety and security of Canada and Canadians. We focus on collecting foreign signals intelligence to protect Canada against threats, and on helping protect the computer networks and information of greatest importance to Canada. We also provide technical assistance to federal law enforcement and security organizations
+Our work helps to ensure our nation’s security and stability; protecting against foreign-based terrorism and espionage, cyber-attacks, and other serious threats. It also supports decision-making in the fields of national defence and foreign policy, providing a better understanding of global events and helping to further Canada</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/d2l-corporation/">
-				D2L Corporation
-				
-					- Booth 41
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/d2l-corporation/">D2L Corporation</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-41">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">41</p>
+</a>
+
+					
+				</summary>
+				<p>D2L was founded in 1999 by John Baker. At the time, his engineering class was being challenged to look at the world in new ways by coming up with questions that no one had asked before.</p>
+
+<p>John realized that despite all the change technology was driving in the world, his University campus seemed almost untouched by that momentum. The question he wanted to ask was clear: how could we use technology to dramatically transform learning?</p>
+
+<p>He’s come to believe that one of the most important things we can do to help each other is ensure that everyone has access to the best possible learning opportunities. Today, D2L is working with customers around the world to help learners at a scale that was hard to imagine in 1999.</p>
+
+<p>D2L’s technology is currently being used by customers in higher education, K-12, healthcare, government, and the enterprise sector. In seventeen years, our team has grown to include over 750 employees around the world. We currently have offices in Canada, the United States, Europe, Australia, Brazil, and Singapore.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/demonware/">
-				Demonware
-				
-					- Booth 35
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/demonware/">Demonware</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-35">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">35</p>
+</a>
+
+					
+				</summary>
+				<p>Demonware creates and provides the online services behind hugely popular video game franchises such as Call of Duty and Skylanders. We do matchmaking, microtransactions, and data analytics for almost half a billion users. Demonware has offices in Dublin, Ireland; Vancouver, Canada; and Shanghai, China, and is a wholly-owned subsidiary of Activision Blizzard, Inc.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/fdm-group/">
-				FDM Group
-				
-					- Booth 3
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/fdm-group/">FDM Group</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-3">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">3</p>
+</a>
+
+					
+				</summary>
+				<p>FDM Group is a global professional services provider with a focus on IT. With over 180 clients worldwide and over 3000 IT and business consultants, FDM brings people and technology together.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/fi-span/">
-				FI.SPAN
-				
-					- Booth 34
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/fi-span/">FI.SPAN</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-34">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">34</p>
+</a>
+
+					
+				</summary>
+				<p>FI.SPAN enables banks to provide bank branded ERP connectors and adapters to their most valuable commercial clients.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/finger-food-studios/">
-				Finger Food Studios
-				
-					- Booth 10
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/finger-food-studios/">Finger Food Studios</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-10">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">10</p>
+</a>
+
+					
+				</summary>
+				<p>Finger Food is a world-class technology company that designs and develops immersive Mobile, MR/AR/VR, Internet of Things, Machine Learning, Cloud and Entertainment products. Our work transforms industries. We are passionate about embracing and innovating bleeding-edge technological opportunities and delivering products that achieve tangible ROI in real-world scenarios.</p>
+
+<p>We work with iOS, Android, Microsoft HoloLens, Tango, Oculus, HTC Vive, and Unity.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/fortinet/">
-				Fortinet Technologies
-				
-					- Booth 18
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/fortinet/">Fortinet Technologies</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-18">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">18</p>
+</a>
+
+					
+				</summary>
+				<p>Fortinet is a global leader in providing Cyber security solutions. We develop next generation firewall systems and high end Security Systems like Fortigate, FortiSandbox, FortiAnalyzer, Forticlient and many other products to enterprise security to our clients which also includes Fortune 100 companies. Our flagship enterprise firewall platform, FortiGate, is available in a wide range of sizes and form factors to fit any environment, and provides a broad array of next generation security and networking functions covering Network security, Data center security (physical and virtual), Cloud security, Secure (wired and wireless) access, Infrastructure (switching and routing) security, Content security, Endpoint security, Application Security.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/geoguard/">
-				GeoGuard
-				
-					- Booth 16
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/geoguard/">GeoGuard</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-16">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">16</p>
+</a>
+
+					
+				</summary>
+				<p>A clear market-leader in cyber-security, GeoGuard specializes in fighting and detecting location fraud protecting regulated the industries as well as the global film, TV &amp; sports world.</p>
+
+<p>Working with some of the best known brands on the planet, GeoGuard delivers mission-critical solutions on a platform agnostic basis, across 200 million unique devices worldwide.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/global-relay/">
-				Global Relay
-				
-					- Booth 6
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/global-relay/">Global Relay</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-6">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">6</p>
+</a>
+
+					
+				</summary>
+				<p>Global Relay is the leading provider of cloud-based electronic message archiving, supervision, and eDiscovery solutions for the global financial sector, delivering services to 20,000 customers in 90 countries, including 22 of the world’s top 25 banks. Global Relay Archive securely captures and preserves email, instant messaging, mobile messaging, Bloomberg, Thomson Reuters, Twitter, LinkedIn, Facebook and more — with Blackberry, iPhone, iPad, Android, Outlook and Web access.</p>
+
+<p>Apply today – we have five floors of great open space offices with a fast-paced vibe, lots of amenities, a roof top deck &amp; BBQ, and an in-house chef, all located in the heart of Gastown near Waterfront Station. To learn more about our culture and community involvement, please visit (www.globalrelay.com).</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/google/">
-				Google
-				
-					- Booth 1
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/google/">Google</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-1">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">1</p>
+</a>
+
+					
+				</summary>
+				<p>Google is not a conventional company, and we don&rsquo;t intend to become one. True, we share attributes with the world&rsquo;s most successful organizations - a focus on innovation and smart business practices comes to mind - but even as we continue to grow, we&rsquo;re committed to retaining a small-company feel. At Google, we know that every employee has something important to say, and that every employee is integral to our success. We provide individually-tailored compensation packages that can be comprised of competitive salary, bonus, and equity components, along with the opportunity to earn further financial bonuses and rewards.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/here-technologies/">
-				HERE Technologies
-				
-					- Booth 39
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/here-technologies/">HERE Technologies</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-39">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">39</p>
+</a>
+
+					
+				</summary>
+				<p>Mapping has always been about discovery. For centuries, two-dimensional maps guided us through the unknown to our destination. But we are no longer limited by the edges of our physical maps.</p>
+
+<p>In 1985, we began with the simple goal to digitize mapping and pioneer in-car navigation systems. Over the next three decades, as NAVTEQ and Nokia, we’ve built a legacy in mapping technology.</p>
+
+<p>Today, we&rsquo;re creating living three-dimensional maps that grow upwards, breathing with layers of information and insights.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/icbc/">
-				ICBC
-				
-					- Booth 2
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/icbc/">ICBC</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-2">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">2</p>
+</a>
+
+					
+				</summary>
+				<p>A career at ICBC is an opportunity to be part of a talented, diverse and inclusive team that is driven to serve its customers and community. Make the most of your skills and take the opportunity to grow and develop your career. You can expect a competitive salary, comprehensive benefits and a challenging work environment. Drive your career with us.</p>
+
+<p>ICBC is committed to being an inclusive employer, one that reflects the diversity of the people and communities of British Columbia.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/jomar/">
-				JOMAR Softcorp Services Inc.
-				
-					- Booth 12
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/jomar/">JOMAR Softcorp Services Inc.</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-12">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">12</p>
+</a>
+
+					
+				</summary>
+				<p>JOMAR integrates &lsquo;Next Generation IT&rsquo; with the software development of our ERP Suite for Vertical Industry Sectors, Smart Grid Utility Systems, and insurance Applications based on a common architecture for implementation on multi-platform servers and deployment to the private Cloud on JOMAR Hosting Services in PEER1 locations.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/l3t-wescam/">
-				L3 WESCAM
-				
-					- Booth 28
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/l3t-wescam/">L3 WESCAM</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-28">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">28</p>
+</a>
+
+					
+				</summary>
+				<p>L3 WESCAM is an exciting company providing systems that capture stabilized, high-magnification images from fixed-wing, rotary-wing, UAV, aerostat and ground based platforms. From low-altitude tactical missions to long-range covert surveillance missions, images are transmitted in real-time to fixed and mobile receive locations for immediate interpretation. WESCAM&rsquo;s MX-Series of Electro-optic and Infrared (EO/IR), laser, surveillance and targeting systems provide unparalleled image stability and long-range detection capability to Defense/Military, Homeland Security, Search and Rescue and Airborne law enforcement agencies worldwide. Our dominance of the airborne platform space has positioned us for explosive and game changing growth into ground-based markets.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/microsemi/">
-				Microsemi
-				
-					- Booth 24
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/microsemi/">Microsemi</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-24">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">24</p>
+</a>
+
+					
+				</summary>
+				<p>Leading provider of high-speed broadband communications and storage semiconductors and MIPS-based processors for Enterprise, Access, Metro Optical Transport, and Storage Area Networking.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/microsoft/">
-				Microsoft
-				
-					- Booth 40
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/microsoft/">Microsoft</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-40">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">40</p>
+</a>
+
+					
+				</summary>
+				<p>We run our business in much the same way. Our employees come as they are and do what they love. Imagine the opportunities you’ll have in a company with 100,000 employees in more than 100 countries, working on hundreds of products—spanning games, phones, developer tools, business solutions and operating systems. We work hard, but we value work/life balance, and each of us defines what that means to us. So why not explore what we do, where we do it, and what life is really like at Microsoft. You just might be surprised.</p>
+
+<p>No matter what your passion is, you’ll find it here. You can work on a multi-billion dollar global business or a revolutionary technology that hasn’t yet left the lab. Join us at Microsoft and start your journey.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/motion-metrics/">
-				Motion Metrics International
-				
-					- Booth 37
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/motion-metrics/">Motion Metrics International</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-37">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">37</p>
+</a>
+
+					
+				</summary>
+				<p>With over fifteen years of experience, Motion Metrics applies the latest in artificial intelligence and deep learning techniques to solve tough safety and efficiency related challenges in mines, quarries, and industrial sites around the world. As a growing company, we are always searching for new talent with a passion for developing cutting-edge technology. Motion Metrics is looking for engineers, developers, and computer scientists from all disciplines and backgrounds to join our diverse team at our headquarters in Vancouver, BC. With strong growth incentives and exciting activities in a beautiful setting, Motion Metrics is the perfect environment to advance your tech career.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/netapp/">
-				NetApp
-				
-					- Booth 47
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/netapp/">NetApp</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-47">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">47</p>
+</a>
+
+					
+				</summary>
+				<p>Leading organizations worldwide count on NetApp for software, systems and services to manage and store their data. Customers value our teamwork, expertise and passion for helping them succeed now and into the future.</p>
+
+<p>Creating a model company is at the heart of everything we do. This means delivering value to each community we serve: customers, shareholders, employees, partners, and neighbors.</p>
+
+<p>We are committed to living our core values:
+• Trust and Integrity
+• Leadership
+• Simplicity
+• Adaptability
+• Teamwork
+• Go Beyond
+• Get Things Done
+The strength of our culture means that we attract the industry’s best to work for our customers’ success. As a result, we’ve earned 13 consecutive years on the FORTUNE “100 Best Companies to Work For®” list.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/netint/">
-				NETINT Technologies
-				
-					- Booth 19
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/netint/">NETINT Technologies</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-19">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">19</p>
+</a>
+
+					
+				</summary>
+				<p>NETINT Technologies is a developer of intelligent silicon solutions for data-intensive applications. The Codensity portfolio enables enterprise, cloud data centers and content providers to deploy high performance applications that they can scale without limit, while minimizing their data storage and processing costs. Our core technology is the Codensity G4 SSD Controller System on Chip (SoC), which provides the intelligence inside our Codensity D400 PCIe NVMe SSDs, and Codensity T400 Video Transcoders. NETINT, founded by an experienced team of storage SoC veterans, is a Canadian venture-funded startup with R&amp;D facilities in Vancouver and Toronto.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/orbis/">
-				Orbis
-				
-					- Booth 27
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/orbis/">Orbis</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-27">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">27</p>
+</a>
+
+					
+				</summary>
+				<p>Orbis is a privately-held global investment management firm that invests over $25 billion in capital. The firm manages several performance-driven equity funds in both long-only and absolute return strategies using a long-term, fundamental, contrarian investment approach. Orbis employs approximately 400 people in eight countries, who represent more than 35 nationalities, speak more than 15 languages and come from a wide range of educational and professional backgrounds.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/pdftron/">
-				PDFTron Systems Inc.
-				
-					- Booth 5
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/pdftron/">PDFTron Systems Inc.</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-5">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">5</p>
+</a>
+
+					
+				</summary>
+				<p>PDFTron Systems Inc. is a premier provider of standards-based document technologies related to PDF, XPS, SVG, ePub, MS Office, HTML, and other graphic file formats. PDFTron&rsquo;s cross-platform, high-performance developer components power well-known commercial products, complex enterprise-wide document management and publishing workflows, as well as high-traffic web-based applications, changing how we use documents one application at a time in virtually all industry areas.</p>
+
+<p>PDFTron fosters an atmosphere of opportunity, growth, and success for every single individual amidst an exciting, challenging and entrepreneurial culture. Guided by a clear company vision, every member of our vibrant team is empowered to be a contributor, innovator and successful leader.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/ping-identity/">
-				Ping Identity
-				
-					- Booth 8
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/ping-identity/">Ping Identity</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-8">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">8</p>
+</a>
+
+					
+				</summary>
+				<p>Our mission is to simplify how enterprises provide secure and seamless digital experiences. For the world’s largest organizations, we help prevent security breaches, increase employee and partner productivity and provide personalized customer experiences. Enterprises choose Ping for our identity expertise, open standards leadership, partnership with companies like Microsoft, Amazon and Google, and collaboration with customers like Boeing, Cisco, Disney, GE, Kraft Foods, Walgreens and over half of the Fortune 100.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/pni/">
-				PNI Digital Media
-				
-					- Booth 9
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/pni/">PNI Digital Media</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-9">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">9</p>
+</a>
+
+					
+				</summary>
+				<p>We develop the next-generation technologies for the world&rsquo;s largest retailers for which we&rsquo;ve become world renown. In addition to revolutionizing the users&rsquo; online experience, we use our world-class programming skills to innovate the systems for the production and fulfillment of their orders. What is more impressive is the scale and reach of our solutions servicing millions of customers and transactions all around the globe.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/qumulo/">
-				Qumulo
-				
-					- Booth 25
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/qumulo/">Qumulo</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-25">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">25</p>
+</a>
+
+					
+				</summary>
+				<p>At Qumulo we&rsquo;ve built a truly unique distributed file system from scratch. It wasn&rsquo;t easy and it&rsquo;s far from a finished product. Joining Qumulo&rsquo;s team of elite engineers means working on an innovative product at its infancy and watching your work take effect. It&rsquo;s an opportunity to work directly with customers and increase the value of our product by solving their most challenging problems.</p>
+
+<p>We hire smart, adaptive engineers with diverse backgrounds and a knack for taking challenges head on. Our programmers not only solve the industry&rsquo;s most difficult problems, but do so in an adaptive, agile environment, shipping code every two weeks and getting feedback on their work in real-time.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/rbc/">
-				RBC
-				
-					- Booth 11
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/rbc/">RBC</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-11">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">11</p>
+</a>
+
+					
+				</summary>
+				<p>The Royal Bank of Canada is a Canadian multinational financial services company and the largest bank in Canada by market capitalization. The bank serves over 16 million clients and has 80,000 employees worldwide.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/realtor-com/">
-				Realtor.com
-				
-					- Booth 20
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/realtor-com/">Realtor.com</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-20">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">20</p>
+</a>
+
+					
+				</summary>
+				<p>Realtor.com®, operated by Move, Inc., is the fastest growing online real estate destination for homebuyers, sellers and renters. Today, with over 3 million listings from nearly 800 multiple listing services (MLS), we have the most homes for sale nationwide than any competing real estate marketplaces.</p>
+
+<p>At realtor.com®, we’re on a mission to give people everywhere the power to discover their next dream home, from anywhere. We’re building world-class real estate solutions that empower realtors with the tools, knowledge and confidence they need to connect people with their perfect home to grow their business.</p>
+
+<p>Realtor.com® was founded in 1995, and is headquartered in the heart of Silicon Valley, Santa Clara, California.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/relic/">
-				Relic Entertainment
-				
-					- Booth 50
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/relic/">Relic Entertainment</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-50">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">50</p>
+</a>
+
+					
+				</summary>
+				<p>Relic Entertainment, a wholly owned studio of SEGA, is the award winning RTS developer of Homeworld, Dawn of War and Company of Heroes, and we’re on the hunt for a Senior VFX Artist to work at our Vancouver studio. As a studio, our role is to create a workplace where people are energized and empowered to not only do their best work but to continually surpass their best. We’ll push you out of your comfort zone to become the best version of you by giving you the ownership and creative freedom to solve our most challenging problems.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/safe-software/">
-				Safe Software
-				
-					- Booth 46
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/safe-software/">Safe Software</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-46">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">46</p>
+</a>
+
+					
+				</summary>
+				<p>The world is swamped in data, and organizations are feeling the pain. Our FME products reduce the friction and allow our thousands of (very happy) customers to painlessly move data from anywhere to everywhere. Whatever the type of data – be it sensors, maps, building models, imagery, databases, social media, web services, and more – FME is up for the task.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/salesforce/">
-				Salesforce
-				
-					- Booth 4
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/salesforce/">Salesforce</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-4">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">4</p>
+</a>
+
+					
+				</summary>
+				<p>salesforce.com is the world&rsquo;s leading cloud computing company.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/sap/">
-				SAP
-				
-					- Booth 52
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/sap/">SAP</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-52">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">52</p>
+</a>
+
+					
+				</summary>
+				<p>SAP is the world’s leading provider of enterprise applications, cloud services, analytics, mobile, and database. SAP helps organizations fight the damaging effects of complexity, generate new opportunities for innovation and growth, and stay ahead of the competition.</p>
+
+<p>From back office to boardroom, warehouse to storefront, desktop to mobile device, SAP empowers people and organizations to work together more efficiently and use business insight more effectively to stay ahead of the competition. We do this by extending the availability of software across on-premise installations, on-demand deployments, in the cloud, and on mobile devices. Our mission is to help companies of all sizes and industries to run better. Our vision is to help the world run better.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/skybox-labs/">
-				Skybox Labs
-				
-					- Booth 32
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/skybox-labs/">Skybox Labs</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-32">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">32</p>
+</a>
+
+					
+				</summary>
+				<p>Skybox Labs is a full-service game development studio based in Burnaby, BC. Founded in 2011, we&rsquo;ve developed titles alongside some of the world&rsquo;s top publishers including Microsoft Studios, GungHo, and Electronic Arts. Our current projects include working as a co-developer on Halo Infinite, projects in the Minecraft Universe, and unannounced original games.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/tableau/">
-				Tableau
-				
-					- Booth 30
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/tableau/">Tableau</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-30">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">30</p>
+</a>
+
+					
+				</summary>
+				<p>Tableau Software is an American computer software company headquartered in Seattle, Washington. It produces a family of interactive data visualization products focused on business intelligence.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/tasktop/">
-				Tasktop Technologies
-				
-					- Booth 44
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/tasktop/">Tasktop Technologies</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-44">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">44</p>
+</a>
+
+					
+				</summary>
+				<p>Over one million users employ Tasktop&rsquo;s ALM and DevOps integration technology to transform the productivity of software delivery, by connecting the development, testing, Agile planning, PMO and operations functions into a unified software development and delivery team.</p>
+
+<p>We are looking for highly-motivated individuals who have a passion for innovation and excellence as we help software development and delivery teams take their innovation to a new level.</p>
+
+<p>Our culture emphasizes teamwork, openness, professional development, and quality of life. Our global head office is located in beautiful downtown Vancouver, Canada and our US headquarters are in Austin, TX. We have a global presence with offices in Boston MA, London UK and staff across Europe.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/telus/">
-				TELUS
-				
-					- Booth 43
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/telus/">TELUS</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-43">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">43</p>
+</a>
+
+					
+				</summary>
+				<p>TELUS&rsquo; Graduate Technology Leadership Program (GTLP) is a one-of-a-kind technical development program with a focus on technology and innovation. Through a series of rotations, the program will expose you to a breadth of functions to build your technical skills while you deliver on the technology needs of our customers.
+You will complete three 9-12 month rotations choosing from five technology streams. Streams include Security, SDN / NFV, Wireless, Future Friendly Home Services, and Software Design. Positions are available in most major cities across Canada, so you can stay in one place or experience living in different parts of Canada during the program.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/teradici/">
-				Teradici
-				
-					- Booth 42
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/teradici/">Teradici</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-42">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">42</p>
+</a>
+
+					
+				</summary>
+				<p>Teradici is the creator of the PCoIP remoting protocol technology and Cloud Access Software, the leading solution for a cloud-ready future. Founded in 2004, the Burnaby company is focused on its core mission of seamless delivery of workstations and applications for end-users.</p>
+
+<p>Teradici PCoIP® technology is the most secure remoting technology in the marketplace, enabling visualization of even the most graphics-intensive applications. Teradici Cloud Access Software, built on PCoIP technology, enables enterprises to securely leverage public cloud GPU instances to confidently lift and shift the most graphics-intensive Windows or Linux applications to the public cloud, avoiding costly rewrites.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/ttt-studios/">
-				TTT Studios
-				
-					- Booth 51
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/ttt-studios/">TTT Studios</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-51">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">51</p>
+</a>
+
+					
+				</summary>
+				<p>TTT Studio is a world-class software development Company working for a global client list in multiple industries. Over the past 9 years, we have built multiple applications and patented a portfolio of technologies. This experience puts us in the best position to cater larger accounts and launch our own products.</p>
+
+<p>We are a family. We have fun. Design means everything to us and we have the technical chops to deliver what lesser programmers might describe as spooky magic. We expect amazing things from every TTT family member and drive each other to achieve greatness.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/visier/">
-				Visier
-				
-					- Booth 26
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/visier/">Visier</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-26">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">26</p>
+</a>
+
+					
+				</summary>
+				<p>A leading innovator in Applied Big Data cloud technology, Visier provides Workforce Intelligence solutions that are enabling a rapidly growing number of the world&rsquo;s best brands to maximize their business outcomes through their people.</p>
+
+<p>Visier&rsquo;s solutions let organizations understand and plan - with precision - how to best and most cost-effectively recruit, retain, and develop their workforce. With Visier, senior leaders, HR, and people managers alike can answer key workforce questions, align on goals and strategies, and act on decisions and plans to drive improved business outcomes. Visier does this by providing complete pre-built solutions in the cloud as a service that leverage Visier&rsquo;s innovative multi-dimensional, in memory technology to provide capabilities otherwise not possible.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/yelp/">
-				Yelp
-				
-					- Booth 31
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/yelp/">Yelp</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-31">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">31</p>
+</a>
+
+					
+				</summary>
+				<p>Yelp connects people with great local businesses.</p>
+
+			</details>
+		</li>
 	
-		<li><a href="/companies/zaber/">
-				Zaber Technologies
-				
-					- Booth 38
-				
-		</a></li>
+		<li class="companies__item">
+			<details class="companies__details">
+				<summary class="companies__summary">
+					<h3 class="companies__title">
+						<a class="companies__link" href="/companies/zaber/">Zaber Technologies</a>
+					</h3>
+					
+					<a class="booth hover companies__booth" href="/map/#booth-38">
+    <h6 class="booth__title">Booth</h6>
+    <p class="booth__number">38</p>
+</a>
+
+					
+				</summary>
+				<p>Zaber Technologies is an innovative and steadily growing employee-owned company that designs, manufactures, and sells precision motion control equipment for high-tech markets around the world.</p>
+
+			</details>
+		</li>
 	
 </ul>
 
-                </section>
+            </main>
 
-                <a class="exit-off-canvas"></a>
-            </div>
+            <a class="tcf-menu__overlay"></a>
         </div>
-
-        <script src="/js/retina-1.1.0.js"></script>
-        <script src="/js/vendor/jquery.js"></script>
-        <script src="/js/foundation.min.js"></script>
-        <script>
-            $(document).foundation();
-        </script>
     </body>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.tcf').classList.toggle('tcf--menu-open');
+        }
+
+        document.querySelector('.tcf-header__menu-button').addEventListener('click', toggleMenu);
+        document.querySelector('.tcf-menu__overlay').addEventListener('click', toggleMenu);
+    </script>
 </html>
