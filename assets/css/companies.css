@@ -1,3 +1,8 @@
+/* Hide the default arrow for <details> elements */
+details summary::-webkit-details-marker {
+    display:none;
+}
+
 .companies__item {
     display: block;
 }
