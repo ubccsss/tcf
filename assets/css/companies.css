@@ -19,6 +19,9 @@ details summary::-webkit-details-marker {
 
     cursor: pointer;
 }
+.companies__summary::-webkit-details-marker {
+    display: none;
+}
 .companies__summary::before {
     content: '';
     margin: 5px 7px 5px 8px;
