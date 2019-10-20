@@ -5,14 +5,14 @@ googleAnalytics: UA-88004303-2
 
 params:
   # Day of the event. Also determines year, i.e. TCF20.
-  date: 2019-01-31 10:00:00
-  end: 2019-01-31 16:00:00
+  date: 2020-01-30 10:00:00
+  end: 2020-01-31 16:00:00
   location:
-    name: Life Science Building
+    name: UBC AMS Student Nest
     address:
-      streetAddress: 2350 Health Sciences Mall
+      streetAddress: 6133 University Blvd.
       addressLocality: Vancouver
-      postalCode: V6T 1Z3
+      postalCode: V6T 1Z1
       addressRegion: BC
       addressCountry: CA
 
