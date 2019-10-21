@@ -22,7 +22,7 @@ This booth is located at the front of the venue, and you probably passed it on t
 
 ### Contact Us Directly
 
-If you can't find anyone and need help right away, just contact the CSSS VP External directly. She's here to help! 🙂
+If you can't find anyone and need help right away, just contact the CSSS VP External directly. He's here to help! 🙂
 
 <a class="hover action-button" href="tel:7786814965">
     <img width="16" height="16" class="icon" src="/img/icons/phone.svg" alt="Email">&nbsp; (778) 681-4965
