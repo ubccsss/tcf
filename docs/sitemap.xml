@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ubctcf.com/privacy/</loc>
+    <loc>https://ubctcf.com/</loc>
     <lastmod>2016-11-02T19:46:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ubctcf.com/</loc>
+    <loc>https://ubctcf.com/privacy/</loc>
     <lastmod>2016-11-02T19:46:36+00:00</lastmod>
   </url>
   
@@ -17,11 +17,11 @@
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/appneta/</loc>
+    <loc>https://ubctcf.com/companies/apple/</loc>
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/apple/</loc>
+    <loc>https://ubctcf.com/companies/appneta/</loc>
   </url>
   
   <url>
@@ -37,10 +37,6 @@
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/bgc-engineering/</loc>
-  </url>
-  
-  <url>
     <loc>https://ubctcf.com/companies/benevity/</loc>
   </url>
   
@@ -49,12 +45,11 @@
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/cpp-investment-board/</loc>
+    <loc>https://ubctcf.com/companies/bgc-engineering/</loc>
   </url>
   
   <url>
     <loc>https://ubctcf.com/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -71,11 +66,14 @@
   
   <url>
     <loc>https://ubctcf.com/companies/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ubctcf.com/companies/copperleaf/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ubctcf.com/companies/cpp-investment-board/</loc>
   </url>
   
   <url>
@@ -147,15 +145,15 @@
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/netint/</loc>
-  </url>
-  
-  <url>
     <loc>https://ubctcf.com/help/</loc>
   </url>
   
   <url>
     <loc>https://ubctcf.com/companies/netapp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ubctcf.com/companies/netint/</loc>
   </url>
   
   <url>
@@ -167,11 +165,11 @@
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/pni/</loc>
+    <loc>https://ubctcf.com/companies/ping-identity/</loc>
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/ping-identity/</loc>
+    <loc>https://ubctcf.com/companies/pni/</loc>
   </url>
   
   <url>
@@ -191,10 +189,6 @@
   </url>
   
   <url>
-    <loc>https://ubctcf.com/companies/sap/</loc>
-  </url>
-  
-  <url>
     <loc>https://ubctcf.com/companies/safe-software/</loc>
   </url>
   
@@ -203,15 +197,11 @@
   </url>
   
   <url>
+    <loc>https://ubctcf.com/companies/sap/</loc>
+  </url>
+  
+  <url>
     <loc>https://ubctcf.com/companies/skybox-labs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ubctcf.com/companies/telus/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ubctcf.com/companies/ttt-studios/</loc>
   </url>
   
   <url>
@@ -220,7 +210,6 @@
   
   <url>
     <loc>https://ubctcf.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -228,7 +217,15 @@
   </url>
   
   <url>
+    <loc>https://ubctcf.com/companies/telus/</loc>
+  </url>
+  
+  <url>
     <loc>https://ubctcf.com/companies/teradici/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ubctcf.com/companies/ttt-studios/</loc>
   </url>
   
   <url>
