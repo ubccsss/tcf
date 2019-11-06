@@ -23,9 +23,10 @@
 
 	<p>
 		<strong>Date:</strong> <time datetime='{{dateFormat "2006-01-02" .Site.Params.date}}'>{{dateFormat "January 2, 2006" .Site.Params.date}}</time>
+		to <time datetime='{{dateFormat "2006-01-02" .Site.Params.end}}'>{{dateFormat "January 2, 2006" .Site.Params.end}}</time>
 	</p>
 	<p>
-		<strong>Time:</strong> <time datetime='{{dateFormat "15:04:05" .Site.Params.date}}'>{{dateFormat "15:04" .Site.Params.date}}</time> to <time datetime='{{dateFormat "15:04:05" .Site.Params.end}}'>{{dateFormat "15:04" .Site.Params.end}}</time>
+		<strong>Time:</strong> <time datetime='{{dateFormat "15:04:05" .Site.Params.date}}'>{{dateFormat "15:04" .Site.Params.date}}</time> to <time datetime='{{dateFormat "15:04:05" .Site.Params.end}}'>{{dateFormat "15:04" .Site.Params.end}}</time>, both days
 	</p>
 	<p>
 		<strong>Location:</strong> {{.Site.Params.location.name}}
