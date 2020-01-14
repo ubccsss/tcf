@@ -39,7 +39,7 @@ menu:
   - identifier: facebook
     pre: /img/icons/facebook.svg
     # Link to the event's facebook page
-    url: https://www.facebook.com/events/2121618437859803/
+    url: https://www.facebook.com/events/1413043352198663/
     weight: 110
   - identifier: careersonline
     pre: /img/icons/careers.svg
