@@ -18,6 +18,9 @@ params:
 
 publishdir: docs
 
+tags:
+  - premium
+
 menu:
   main:
   - identifier: home

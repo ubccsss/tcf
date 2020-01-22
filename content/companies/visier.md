@@ -1,7 +1,8 @@
 ---
 title: Visier
 website: http://www.visier.com
-booth: "26"
+rank: b_not
+
 ---
 
 A leading innovator in Applied Big Data cloud technology, Visier provides Workforce Intelligence solutions that are enabling a rapidly growing number of the world's best brands to maximize their business outcomes through their people.

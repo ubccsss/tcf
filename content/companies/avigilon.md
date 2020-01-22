@@ -1,7 +1,7 @@
 ---
 title: Avigilon
 website: http://www.avigilon.com/
-booth: "33"
+rank: b_not
 ---
 
 Pronunciation: a-vigil-on

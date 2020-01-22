@@ -2,6 +2,7 @@
 title: D2L Corporation
 website: https://www.d2l.com/careers/
 booth: "41"
+rank: b_not
 ---
 
 D2L was founded in 1999 by John Baker. At the time, his engineering class was being challenged to look at the world in new ways by coming up with questions that no one had asked before.

@@ -2,6 +2,7 @@
 title: SAP
 website: https://www.sap.com/
 booth: "52"
+rank: b_not
 ---
 
 SAP is the world’s leading provider of enterprise applications, cloud services, analytics, mobile, and database. SAP helps organizations fight the damaging effects of complexity, generate new opportunities for innovation and growth, and stay ahead of the competition.

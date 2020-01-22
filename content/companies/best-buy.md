@@ -2,6 +2,7 @@
 title: Best Buy Canada
 website: http://www.bestbuy.ca
 booth: "36"
+rank: b_not
 ---
 
 Best Buy Canada is one of the largest omni-channel retailers of consumer electronics, computers and entertainment products, related accessories and services in Canada.

@@ -1,7 +1,8 @@
 ---
 title: A Thinking Ape
 website: http://www.athinkingape.com/
-booth: "14"
+rank: b_not
+
 ---
 
 A Thinking Ape is a small yet driven team that is dedicated to building strong mobile communities.

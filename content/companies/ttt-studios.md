@@ -1,7 +1,8 @@
 ---
 title: TTT Studios
 website: http://www.twotalltotems.com
-booth: "51"
+rank: a_premium
+
 ---
 
 TTT Studio is a world-class software development Company working for a global client list in multiple industries. Over the past 9 years, we have built multiple applications and patented a portfolio of technologies. This experience puts us in the best position to cater larger accounts and launch our own products.

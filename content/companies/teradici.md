@@ -1,7 +1,8 @@
 ---
 title: Teradici
 website: http://www.teradici.com
-booth: "42"
+rank: b_not
+
 ---
 
 Teradici is the creator of the PCoIP remoting protocol technology and Cloud Access Software, the leading solution for a cloud-ready future. Founded in 2004, the Burnaby company is focused on its core mission of seamless delivery of workstations and applications for end-users.

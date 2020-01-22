@@ -2,6 +2,7 @@
 title: Copperleaf Technologies
 website: http://www.copperleaf.com/
 booth: "15"
+rank: b_not
 ---
 
 Building a better world one decision at a time.
