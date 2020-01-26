@@ -1,10 +1,18 @@
 ---
-title: PDFTron Systems Inc.
+title: "PDFTron Systems, Inc."
 website: http://www.pdftron.com
-booth: "5"
-rank: a_premium
+booth: X
+rank: a_prem
 ---
+Overview
+"PDFTron Systems Inc. is changing the way the world works with documents. PDFTron is an industry-leading provider of document processing technology that powers everything from traditional desktop software (like AutoCAD), to web apps (like DocuSign), and mobile apps (like Xodo).
 
-PDFTron Systems Inc. is a premier provider of standards-based document technologies related to PDF, XPS, SVG, ePub, MS Office, HTML, and other graphic file formats. PDFTron's cross-platform, high-performance developer components power well-known commercial products, complex enterprise-wide document management and publishing workflows, as well as high-traffic web-based applications, changing how we use documents one application at a time in virtually all industry areas.
+We are a fast growing company and have just secured a $95M strategic growth investment. 
 
-PDFTron fosters an atmosphere of opportunity, growth, and success for every single individual amidst an exciting, challenging and entrepreneurial culture. Guided by a clear company vision, every member of our vibrant team is empowered to be a contributor, innovator and successful leader.
+We foster an atmosphere of opportunity, growth, and success for every single individual amidst an exciting, challenging, and entrepreneurial culture where career progression is based on merit, not tenure."
+What are the skills and qualities of a successful candidate in your organization?
+"Entrepreneurial spirit
+Problem solving abilities
+Communication/Collaboration skills"
+In your opinion, what is the best way for UBC students to prepare for their interactions with you at the TCF?
+Drop off your resume at our desk & speak to a company rep.

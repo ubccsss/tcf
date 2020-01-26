@@ -33,7 +33,7 @@ menu:
     weight: -90
   - identifier: companies
     pre: /img/icons/users.svg
-    url: /comingsoon/
+    url: /companies/
     weight: -80
   - identifier: help
     pre: /img/icons/question-circle.svg

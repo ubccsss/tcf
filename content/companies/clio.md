@@ -1,8 +1,15 @@
 ---
 title: Clio
-website: http://www.goclio.com/
-booth: "23"
+website: 
+booth: X
 rank: b_not
 ---
+Overview
+"Cloud-based practice management software for legal professionals. We work to transform the practice of law, for good!"
+What are the skills and qualities of a successful candidate in your organization?
+"You've completed your second year coursework and are a 3rd or 4th year Computer Science/Engineering student;
+You are a rational and critical thinker who seeks solutions when you find problems;
+Excellent computer science fundamentals: data structures, algorithms; programming languages, SQL;
+Superb communication skills written, verbal, and spoken."
+In your opinion, what is the best way for UBC students to prepare for their interactions with you at the TCF?
 
-Clio is the most comprehensive cloud-based practice management platform for the legal industry. With the help of the cloud, Clio eases the process of time tracking, billing, administration, and collaboration for law firms of all sizes. Based in Vancouver, B.C. and launched in 2008, Clio is used by legal professionals in over 50 countries. Clio has raised $27 million from investors including Bessemer Venture Partners. Learn more at www.clio.com.
