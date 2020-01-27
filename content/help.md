@@ -20,7 +20,7 @@ This booth is located at the front of the venue, and you probably passed it on t
 If you can't find anyone and need help right away, just contact the CSSS VP External directly. He's here to help! 🙂
 
 <a class="hover action-button" href="tel:7786814965">
-    <img width="16" height="16" class="icon" src="/img/icons/phone.svg" alt="Email">&nbsp; (778) 681-4965
+    <img width="16" height="16" class="icon" src="/img/icons/phone.svg" alt="Email">&nbsp; (587) 437-6152
 </a>
 <a class="hover action-button action-button--secondary" href="mailto:vpx@ubccsss.org">
     <img width="16" height="16" class="icon" src="/img/icons/envelope.svg" alt="Email">&nbsp; vpx@ubccsss.org
