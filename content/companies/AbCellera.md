@@ -4,7 +4,7 @@ website: https://www.abcellera.com/
 booth: X
 rank: b_not
 ---
-**Overview**
+****Overview**  **
 
 <br>
 "At AbCellera, you won't just be redesigning another website or creating a copy-and-paste app experience. We know you've done that all before.
@@ -19,7 +19,8 @@ We're the first in our field to be providing tools like these, which means you'l
 
 <br>
 
-**What are the skills and qualities of a successful candidate in your organization?**
+**  
+**What are the skills and qualities of a successful candidate in your organization?**  **
 
 <br>
 "Excellent communication skills, both with technical and non-technical colleagues.
