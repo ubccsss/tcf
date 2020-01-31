@@ -29,7 +29,7 @@ menu:
     weight: -100
   - identifier: map
     pre: /img/icons/map-marked-alt.svg
-    url: https://www.facebook.com/ubccsss/photos/pcb.1440434712792860/2998197476870696/?type=3&theater
+    url: https://www.facebook.com/events/1413043352198663/permalink/1441395759363422/
     weight: -90
   - identifier: companies
     pre: /img/icons/users.svg
